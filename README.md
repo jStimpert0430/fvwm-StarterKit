@@ -1,5 +1,5 @@
 # Fvwm-StarterKit
-Fvwm-StarterKit is a robust set of modular default configs for Fvwm which highlight the more advanced features of fvwm in an easy to digest gui presentation and designed with a  clean modular organization in mind for those curious can dive in and learn by picking apart rather than building up by using small pieces of functionality as a template to further extend.
+Fvwm-StarterKit is a robust set of modular default configs for Fvwm which highlight the more advanced features of fvwm in an easy to digest gui presentation and is designed with a  clean modular organization in mind for those curious can dive in and learn by picking apart rather than building up by using small pieces of functionality as a template to further extend.
 
 ![Preview](screenshot.png?raw=true "Preview Screenshot")
 
