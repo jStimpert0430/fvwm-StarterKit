@@ -9,7 +9,7 @@ This software is ment to be a lighterweight and current alternative to "Fvwm-the
 
 [CURRENTLY IN ACTIVE DEVELOPMENT - FEATURES AND ORGANIZATION MAY CHANGE FROM UPDATE TO UPDATE - NOT READY FOR DAILY USE - INSTALL AT YOUR OWN RISK!]
 
-## Features 
+## Features Wishlist
 
 * Modular and unobtrusive design that is easy to pick apart should you want to learn how to set up your own or extend this design
 
