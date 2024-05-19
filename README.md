@@ -7,6 +7,8 @@ This theme was created as a means to learn my way around fvwm and what I could d
 
 This software is ment to be a lighterweight and current alternative to "Fvwm-themes" and functions by loading immedietly after the default config for fvwm is loaded and does not require the use of a startx command or another invasive initialization process. If you're not happy with how it functions, simply remove the downloaded files from your .fvwm directory and everything will return to how it was set previously.
 
+[CURRENTLY IN ACTIVE DEVELOPMENT - FEATURES AND ORGANIZATION MAY CHANGE FROM UPDATE TO UPDATE - NOT READY FOR DAILY USE]
+
 ## Features 
 
 * Modular and unobtrusive design that is easy to pick apart should you want to learn how to set up your own or extend this design
@@ -20,6 +22,8 @@ This software is ment to be a lighterweight and current alternative to "Fvwm-the
 * Tweak individual styles through the use of GUI Tweak menu to set functionality as desired without the need to open a text editor
 
 * Select and omit the custom components you want and don't want
+
+* Includes all fvwm wiki example decors, colors, and tools
 
 ## What this is not
 * A full DE implementation, this is ment to be as an alternative default to the included fvwm config that is intended to be a more reasonable starting point as well as showcase some of the more unique features of fvwm that I feel the default configuration was missing. 
