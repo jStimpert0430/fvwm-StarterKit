@@ -1,5 +1,5 @@
 # Fvwm-StarterKit
-Fvwm-StarterKit is a robust set of modular default configs for Fvwm which highlight the more advanced features of fvwm in an easy to digest gui presentation and deep modular organization for those curious can dive in and learn by picking apart rather than building up. 
+Fvwm-StarterKit is a robust set of modular default configs for Fvwm which highlight the more advanced features of fvwm in an easy to digest gui presentation and designed with a  clean modular organization in mind for those curious can dive in and learn by picking apart rather than building up by using small pieces of functionality as a template to further extend.
 
 ![Preview](screenshot.png?raw=true "Preview Screenshot")
 
@@ -24,7 +24,7 @@ This software is ment to be a lighterweight and current alternative to "Fvwm-the
 ## What this is not
 * A full DE implementation, this is ment to be as an alternative default to the included fvwm config that is intended to be a more reasonable starting point as well as showcase some of the more unique features of fvwm that I feel the default configuration was missing. 
 
-## Major themes and apps recommended for good integration
+## Recommended for proper integration
 
 * Raleigh GTK theme(https://github.com/thesquash/gtk-theme-raleigh)
 
@@ -32,7 +32,7 @@ This software is ment to be a lighterweight and current alternative to "Fvwm-the
 
 * Palemoon browser with the "Moonscape" theme.
 
-* Various tweaks in GTK apps to ensure system theming.
+* Enable settings inside GTK applications to honor system theming(ex. show titlebar in firefox)
 
 * Stanalone tray - used to pin running applications onto the panel.
 
