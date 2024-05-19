@@ -1,0 +1,28 @@
+# Color Scheme Template
+
+#Open Color - repeaat of colorset 1
+Colorset 0 fg white, bg #78aab8, hi, sh, Plain, NoShape
+
+#WindowTitleHilightColor
+Colorset 1 fg white, bg #78aab8, hi, sh, Plain, NoShape
+
+#WindowTitleUnfocusedColor
+Colorset 2 fg black, bg #afbffb, hi, sh, Plain, NoShape
+
+#BorderHilightColor
+Colorset 3 fg white, bg #78aab8, hi, sh, Plain, NoShape
+
+#BorderUnfocusedColor
+Colorset 4 fg black, bg #afbffb, hi, sh, Plain, NoShape
+
+#Open Color - repeat of color set 8
+Colorset 5 fg white, bg #78aab8, hi, sh, Plain, NoShape
+
+#HilightColor
+Colorset 6 fg white, bg #7ab9d8, hi, sh, Plain, NoShape
+
+#AltHilightColor/Open Color
+Colorset 7 fg black, bg #bfc0c5, hi, sh, Plain, NoShape
+
+#AltBackColor
+Colorset 8 fg white, bg #78aab8, hi, sh, Plain, NoShape
