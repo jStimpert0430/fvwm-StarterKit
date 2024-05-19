@@ -21,6 +21,8 @@ This software is ment to be a lighterweight and current alternative to "Fvwm-the
 
 ## Features Wishlist
 
+* Internal Custom Toolset, no need for external applications or libraries outside of Fvwm
+
 * Multiple Taskbar options and designs
 
 * Tweak individual decors and colors through the use of GUI Tweak menu to set functionality as desired without the need to open a text editor while using any built in style as a starting point
