@@ -1,0 +1,34 @@
+Colorset 0  fg #ffffff, bg #003c3c, hi, sh, Plain, NoShape
+
+#TitleBarHighlight - Pink red color with white text
+Colorset 2  fg white, bg #cc0068006f00, hi, sh, Plain, NoShape
+
+#TitleBarUnfocusedColor - Default Fvwm green with greengray text
+Colorset 1  fg #99AA99, bg #003c3c, hi, sh, Plain, NoShape
+
+
+#BorderUnfocusedColor
+Colorset 3  fg black, bg #4d4d4d, hi #676767, sh #303030, Plain, NoShape
+
+#BorderFocusedColor
+Colorset 4  fg black, bg #2d2d2d, hi #474747, sh #101010, Plain, NoShape
+
+
+Colorset 5  fg #000000, bg #ffffff, hi, sh, Plain, NoShape
+Colorset 6  fg #ffffff, bg #2d2d2d, hi, sh, Plain, NoShape
+Colorset 7  fg grey30, bg #ffffff, hi, sh, Plain, NoShape
+Colorset 8  fg #ffffff, bg #003c3c, hi, sh, Plain, NoShape
+Colorset 10 fg #ffffff, bg #003c3c, hi #aaaaaa, sh #999999, Plain, NoShape
+Colorset 11 fg #ffffff, bg #1a6e99, hi #ffffff, sh #ffffff, Plain, NoShape
+Colorset 12 fg #2d2d2d, bg #ffffff, hi, sh, Plain, NoShape
+Colorset 13 fg #ffffff, bg #006c6c, hi, sh, Plain, NoShape
+Colorset 14 fg #555555, bg #003c3c, hi #aaaaaa, sh #999999, Plain, NoShape
+Colorset 15 fg #99AA99, bg #003c3c, hi #005c5c, sh #001c1c
+Colorset 16 fg #ffffff, bg #4b7e7e, hi #005c5c, sh #001c1c
+Colorset 17 fg #ffffff, bg #003c3c, hi #005c5c, sh #001c1c
+Colorset 18 fg #000000, bg #aaaaaa, hi #005c5c, sh #001c1c
+ColorSet 19 fg #dddddd, bg #305e6d, hi #328caa, sh #283e45
+ColorSet 20 fg #dddddd, bg #305e6d, hi #3e7a8d, sh #283e45
+ColorSet 21 fg #dddddd, bg #555959, hi #767e7e, sh #3b3d3d
+
+Test (f $[FVWM_USERDIR]/themes/MMM/taskbar.config) Read $[FVWM_USERDIR]/themes/MMM/taskbar.config

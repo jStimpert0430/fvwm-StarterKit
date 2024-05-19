@@ -1,0 +1,68 @@
+WindowTitle {System Information}
+WindowSize  600 400
+BackColor {#dcdad5}
+Font "default:style=Bold:size=10"
+Init
+ Begin
+ End
+ 
+Widget 1
+Property
+ Title {}
+ Icon themes/MMM/icons/banner.fvwm_red_3D.xpm
+ Size  260 110
+ Position 150 30
+ Type ItemDraw
+ Flags NoReliefString
+Main
+ Case message of
+  SingleClic :
+  Begin
+  End
+End
+
+Widget 2
+Property
+ Title {Ver. 2.7.0}
+ Size  60 30
+ Position 350 90
+ Type ItemDraw
+ Flags NoReliefString
+Main
+ Case message of
+  SingleClic :
+  Begin
+  End
+End
+
+Widget 3
+Property
+ Title {}
+ Size  400 200
+ Position 90 165
+ Type Rectangle
+  ShadowColor {#222222}
+  HilightColor {#FFFFFF}
+ Flags NoReliefString
+Main
+ Case message of
+  SingleClic :
+  Begin
+  End
+End
+
+Widget 4
+Property
+ Title { bunta@TofuShop }
+ Size  80 30
+ Position 100 150
+ Type ItemDraw
+ Flags NoReliefString
+Main
+ Case message of
+  SingleClic :
+  Begin
+  End
+End
+
+

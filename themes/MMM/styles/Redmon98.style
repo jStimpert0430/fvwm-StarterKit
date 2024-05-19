@@ -1,0 +1,60 @@
+Colorset 1 fg white, bg grey51
+Colorset 2 fg white, bg Blue3, hi #40B0F0
+Colorset 3 fg white, bg #c3c3c3
+Colorset 4 fg white, bg #c3c3c3
+
+Mouse 1 2 A Close
+Mouse 1 4 A Maximize
+Mouse 1 6 A Iconify
+Mouse 1 1 A Menu MenuWindowOps
+
+AddToDecor Redmond98Decor
++ TitleStyle AllInactive Solid grey51
++ TitleStyle Active      HGradient 128 Blue4 DeepSkyBlue
++ ButtonStyle All Simple -- UseTitleStyle
++ AddButtonStyle All   AllInactive Solid grey51
++ AddButtonStyle Left  AllActive   Solid Blue4
++ AddButtonStyle Right AllActive   Solid DeepSkyBlue
++ BorderStyle Simple -- HiddenHandles NoInset Raised
++ TitleStyle      LeftJustified
++ TitleStyle      -- Flat
++ ButtonStyle     All -- Flat
++ AddButtonStyle 1 MiniIcon
++ AddButtonStyle 2 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-close.png
++ AddButtonStyle 2 ActiveDown Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-close-pressed.png
++ AddButtonStyle 2 Inactive   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-close.png
++ AddButtonStyle 4 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-maximize.png
++ AddButtonStyle 4 ActiveDown Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-maximize-pressed.png
++ AddButtonStyle 4 Inactive   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-maximize.png
++ AddButtonStyle 6 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-iconify.png -- Right flat
++ AddButtonStyle 6 ActiveDown Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-iconify-pressed.png -- Right flat
++ AddButtonStyle 6 Inactive   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-iconify.png -- Right flat
++ AddButtonStyle 4 ToggledActiveUp   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-restore.png
++ AddButtonStyle 4 ToggledActiveDown Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-restore-pressed.png
++ AddButtonStyle 4 ToggledInactive   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-restore.png
++ ButtonStyle All - Clear
++ ButtonStyle 1 - MwmDecorMenu
++ ButtonStyle 6 - MwmDecorMin
++ ButtonStyle 4 - MwmDecorMax
++ TitleStyle Height 20
+
+
+Style * Colorset 1, HilightColorset 2, \
+        BorderColorset 3, HilightBorderColorset 4, \
+        BorderWidth 5, HandleWidth 5, \
+        FvwmBorder, FirmBorder, \
+        MWMButtons, UseDecor Redmond98Decor
+         
+         
+Style *FvwmTaskBar MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderColorset 1, Colorset 1, UseDecor RedmondXPDecor
+
+Style "TofuPager" NoTitle, !Handles, Borders, BorderWidth 6, BorderColorset 1, Sticky, WindowListSkip, FixedSize, StayOnTop
+
+MenuStyle * Win
+MenuStyle * MenuColorset 5, ActiveColorset 6, GreyedColorset 7, TitleColorset 8
+MenuStyle * HilightTitleBack, SeparatorsLong
+MenuStyle * TrianglesSolid, TrianglesUseFore
+MenuStyle * ItemFormat "%|%3.1i%5.3l%5.3>%|"
+MenuStyle * Font "default:size=13:antialias=false"
+MenuStyle * MenuColorset #aaaaaa
+MenuStyle * ActiveFore White

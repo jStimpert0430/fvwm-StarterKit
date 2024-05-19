@@ -1,0 +1,10 @@
+# Color Scheme Autumn
+Colorset 0 fg white, bg rgb:89/65/66, hi, sh, Plain, NoShape
+Colorset 1 fg white, bg rgb:89/65/66, hi, sh, Plain, NoShape
+Colorset 2 fg black, bg rgb:df/98/6d, hi, sh, Plain, NoShape
+Colorset 3 fg white, bg rgb:89/65/66, hi, sh, Plain, NoShape
+Colorset 4 fg black, bg rgb:df/98/6d, hi, sh, Plain, NoShape
+Colorset 5 fg white, bg rgb:89/65/66, hi, sh, Plain, NoShape
+Colorset 6 fg white, bg rgb:b5/49/53, hi, sh, Plain, NoShape
+Colorset 7 fg white, bg rgb:97/6a/66, hi, sh, Plain, NoShape
+Colorset 8 fg white, bg rgb:89/65/66, hi, sh, Plain, NoShape

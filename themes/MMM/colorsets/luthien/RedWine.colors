@@ -1,0 +1,10 @@
+# Color Scheme RedWine
+Colorset 0 fg white, bg rgb:5f/8e/78, hi, sh, Plain, NoShape
+Colorset 1 fg white, bg rgb:5f/8e/78, hi, sh, Plain, NoShape
+Colorset 2 fg black, bg rgb:d4/85/78, hi, sh, Plain, NoShape
+Colorset 3 fg white, bg rgb:5f/8e/78, hi, sh, Plain, NoShape
+Colorset 4 fg black, bg rgb:d4/85/78, hi, sh, Plain, NoShape
+Colorset 5 fg white, bg rgb:5f/8e/78, hi, sh, Plain, NoShape
+Colorset 6 fg black, bg rgb:b8/5b/76, hi, sh, Plain, NoShape
+Colorset 7 fg white, bg rgb:4c/5b/60, hi, sh, Plain, NoShape
+Colorset 8 fg white, bg rgb:5f/8e/78, hi, sh, Plain, NoShape

@@ -1,0 +1,10 @@
+# Color Scheme Standard
+Colorset 0 fg black, bg rgb:97/9b/96, hi, sh, Plain, NoShape
+Colorset 1 fg black, bg rgb:97/9b/96, hi, sh, Plain, NoShape
+Colorset 2 fg black, bg rgb:eb/ab/74, hi, sh, Plain, NoShape
+Colorset 3 fg black, bg rgb:97/9b/96, hi, sh, Plain, NoShape
+Colorset 4 fg black, bg rgb:eb/ab/74, hi, sh, Plain, NoShape
+Colorset 5 fg black, bg rgb:97/9b/96, hi, sh, Plain, NoShape
+Colorset 6 fg black, bg rgb:8b/95/ae, hi, sh, Plain, NoShape
+Colorset 7 fg white, bg rgb:6a/6d/86, hi, sh, Plain, NoShape
+Colorset 8 fg black, bg rgb:97/9b/96, hi, sh, Plain, NoShape

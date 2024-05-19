@@ -1,0 +1,10 @@
+# Color Scheme Gray
+Colorset 0 fg white, bg rgb:77/78/7b, hi, sh, Plain, NoShape
+Colorset 1 fg white, bg rgb:77/78/7b, hi, sh, Plain, NoShape
+Colorset 2 fg black, bg rgb:c6/c5/c7, hi, sh, Plain, NoShape
+Colorset 3 fg white, bg rgb:77/78/7b, hi, sh, Plain, NoShape
+Colorset 4 fg black, bg rgb:c6/c5/c7, hi, sh, Plain, NoShape
+Colorset 5 fg white, bg rgb:77/78/7b, hi, sh, Plain, NoShape
+Colorset 6 fg black, bg rgb:bb/bb/bc, hi, sh, Plain, NoShape
+Colorset 7 fg black, bg rgb:90/96/95, hi, sh, Plain, NoShape
+Colorset 8 fg white, bg rgb:77/78/7b, hi, sh, Plain, NoShape

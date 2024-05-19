@@ -1,0 +1,10 @@
+# Color Scheme PolarSky
+Colorset 0 fg white, bg rgb:1e/5e/6d, hi, sh, Plain, NoShape
+Colorset 1 fg white, bg rgb:1e/5e/6d, hi, sh, Plain, NoShape
+Colorset 2 fg black, bg rgb:a0/79/94, hi, sh, Plain, NoShape
+Colorset 3 fg white, bg rgb:1e/5e/6d, hi, sh, Plain, NoShape
+Colorset 4 fg black, bg rgb:a0/79/94, hi, sh, Plain, NoShape
+Colorset 5 fg white, bg rgb:1e/5e/6d, hi, sh, Plain, NoShape
+Colorset 6 fg white, bg rgb:47/7e/80, hi, sh, Plain, NoShape
+Colorset 7 fg white, bg rgb:0d/5c/85, hi, sh, Plain, NoShape
+Colorset 8 fg white, bg rgb:1e/5e/6d, hi, sh, Plain, NoShape

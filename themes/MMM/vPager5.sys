@@ -1,0 +1,59 @@
+## Modules: vPager5.sys
+## By rasat
+
+## Fvwm myExt
+SetEnv CORE_DIR $[HOME]/.fvwm/coreEXT
+SetEnv EXTRA_DIR $[HOME]/.fvwm/extraEXT
+
+## Fvwm Kise
+# SetEnv CORE_DIR $[HOME]/.fvwm/core
+# SetEnv USER_DIR $[HOME]/.fvwm/user
+
+KillModule FvwmButtons *RightPanel
+KillModule FvwmPager V2x4Pager
+KillModule FvwmPager ControlPagerB
+
+## Fvwm Kise
+# KillModule FvwmPager FvwmPagerBar
+# KillModule FvwmPager FvwmDesker
+# KillModule FvwmButtons BarButtons
+# KillModule FvwmButtons RightPager
+
+########
+# Vertical Pager (5 pages)
+########
+
+# Virtual Desktop
+DesktopSize "1x4"
+
+Module FvwmPager TofuPager
+
+DestroyModuleConfig TofuPager: *
+*TofuPager: Geometry 48x200-0+190
+*TofuPager: Colorset * 8
+*TofuPager: HilightColorset * 6
+*TofuPager: BalloonColorset * 10 # font color
+*TofuPager: WindowColorsets 1 2 #original 10 (inactive) 11 (active apps)
+*TofuPager: Font none
+#*TofuPager: NoSeparators
+*TofuPager: WindowBorderWidth 1
+*TofuPager: BalloonStringFormat %c
+*TofuPager: BallonYOffset +2
+*TofuPager: Window3dBorders
+*TofuPager: UseSkipList # hides modules
+*TofuPager: MiniIcons
+#*TofuPager: Pixmap $[FVWM_USERDIR]/themes/MMM/BACKDROP2.xpm
+#*TofuPager: HilightPixmap $[FVWM_USERDIR]/themes/MMM/Marble.pm
+
+Module TofuPager
+
+## Change preloaded settings
+
+## Titlebar Right Click (check mMenu.conf Send To)
+DestroyMenu MenuSendTo
+AddToMenu MenuSendTo
++ " Page 0 " MoveToPage 0 0
++ " Page 1 " MoveToPage 0 1
++ " Page 2 " MoveToPage 0 2
++ " Page 3 " MoveToPage 0 3
++ " Page 4 " MoveToPage 0 4

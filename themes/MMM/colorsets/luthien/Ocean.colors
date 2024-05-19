@@ -1,0 +1,10 @@
+# Color Scheme Ocean
+Colorset 0 fg white, bg rgb:3d/96/89, hi, sh, Plain, NoShape
+Colorset 1 fg white, bg rgb:3d/96/89, hi, sh, Plain, NoShape
+Colorset 2 fg black, bg rgb:a5/e9/c4, hi, sh, Plain, NoShape
+Colorset 3 fg white, bg rgb:3d/96/89, hi, sh, Plain, NoShape
+Colorset 4 fg black, bg rgb:a5/e9/c4, hi, sh, Plain, NoShape
+Colorset 5 fg white, bg rgb:3d/96/89, hi, sh, Plain, NoShape
+Colorset 6 fg white, bg rgb:2e/50/74, hi, sh, Plain, NoShape
+Colorset 7 fg black, bg rgb:73/8b/a2, hi, sh, Plain, NoShape
+Colorset 8 fg white, bg rgb:3d/96/89, hi, sh, Plain, NoShape

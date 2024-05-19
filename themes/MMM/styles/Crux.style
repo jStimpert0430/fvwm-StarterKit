@@ -1,0 +1,77 @@
+# InActive title right & text/bevel colors
+Colorset 1 VGradient 32 4 grey96 30 grey90 50 grey88 85 grey76 10 black, \
+    fg grey50, bg grey50, sh grey50, hi grey100
+# Active title right & text/bevel color
+Colorset 2 VGradient 32 4 grey96 30 grey85 50 grey80 80 grey60 10 black, \
+    fg grey85, bg grey50, sh grey20, hi grey100
+# Active title left. Note how you can use different ways to define colors.
+# The most comfortable way would be using the colors listed in rgb.txt,
+# but rgb:rr/gg/bb works just aswell.
+Colorset 3 VGradient 32 3 #009a00 20 green4 50 darkslategrey 10 black, \
+    bg grey
+# InActive title left
+Colorset 4 VGradient 32 3 grey80 80 grey70 70 grey62 10 black, \
+    bg grey
+
+
+
+Mouse 1 1 A WindowList
+Mouse 1 2 A Close
+Mouse 1 4 A Maximize
+Mouse 1 6 A Iconify
+
+
+
+
+AddToDecor CruxDecor
++ TitleStyle LeftJustified Height 19
++ TitleStyle -- Flat
++ AddTitleStyle Active MultiPixmap \
+    LeftMain Colorset 3, \
+    RightMain Colorset 2, \
+    UnderText Colorset 3, \
+    RightOfText AdjustedPixmap $[FVWM_USERDIR]/themes/MMM/styles/crux/crux-fvwm-ac.png
+
++ AddTitleStyle InActive MultiPixmap \
+    LeftMain Colorset 4, \
+    RightMain Colorset 1, \
+    UnderText Colorset 4, \
+    RightOfText AdjustedPixmap $[FVWM_USERDIR]/themes/MMM/styles/crux/crux-fvwm-inac.png
+
+
+
++ ButtonStyle All Vector 3 75x25@1 25x25@1 25x75@1
++ AddButtonStyle All Vector 5 20x20@0 20x80@0 80x80@0 80x20@0 20x20@0
++ AddButtonStyle All Vector 3 30x85@2 85x85@2 85x20@2
+
++ AddButtonStyle 2 Vector 2 40x40@0 60x60@0
++ AddButtonStyle 2 Vector 2 40x60@0 60x40@0
+
++ AddButtonStyle 4 Vector 5 35x35@0 35x65@0 65x65@0 65x35@0 35x35@0
++ AddButtonStyle 4 Vector 2 35x45@0 65x45@0
++ AddButtonStyle 4 Vector 2 35x40@0 65x40@0
+
++ AddButtonStyle 6 Vector 2 35x65@0 65x65@0
++ AddButtonStyle 6 Vector 2 35x60@0 65x60@0
+
++ ButtonStyle All -- UseTitleStyle Flat
+
+
+Style * Colorset 1, HilightColorset 2, !Handles, UseDecor CruxDecor
+
+
+
+         
+         
+Style *FvwmTaskBar MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderColorset 1, Colorset 1, UseDecor RedmondXPDecor
+
+Style "TofuPager" NoTitle, !Handles, Borders, BorderWidth 6, BorderColorset 1, Sticky, WindowListSkip, FixedSize, StayOnTop
+
+MenuStyle * Win
+MenuStyle * MenuColorset 5, ActiveColorset 6, GreyedColorset 7, TitleColorset 8
+MenuStyle * HilightTitleBack, SeparatorsLong
+MenuStyle * TrianglesSolid, TrianglesUseFore
+MenuStyle * ItemFormat "%|%3.1i%5.3l%5.3>%|"
+MenuStyle * Font "default:size=13:antialias=false"
+MenuStyle * MenuColorset #aaaaaa
+MenuStyle * ActiveFore White

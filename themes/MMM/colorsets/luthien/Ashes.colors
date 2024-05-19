@@ -1,0 +1,10 @@
+# Color Scheme Ashes
+Colorset 0 fg white, bg rgb:7a/75/7a, hi, sh, Plain, NoShape
+Colorset 1 fg white, bg rgb:7a/75/7a, hi, sh, Plain, NoShape
+Colorset 2 fg black, bg rgb:8b/b8/ae, hi, sh, Plain, NoShape
+Colorset 3 fg white, bg rgb:7a/75/7a, hi, sh, Plain, NoShape
+Colorset 4 fg black, bg rgb:8b/b8/ae, hi, sh, Plain, NoShape
+Colorset 5 fg white, bg rgb:7a/75/7a, hi, sh, Plain, NoShape
+Colorset 6 fg white, bg rgb:6d/61/65, hi, sh, Plain, NoShape
+Colorset 7 fg white, bg rgb:88/6b/70, hi, sh, Plain, NoShape
+Colorset 8 fg white, bg rgb:7a/75/7a, hi, sh, Plain, NoShape

@@ -1,0 +1,139 @@
+WindowTitle {ConfirmQuit}
+WindowSize  300 78
+BackColor {#dcdad5}
+Font "default:style=Bold:size=10"
+Init
+ Begin
+ End
+
+Widget 7
+Property
+ Title {}
+ Size  301 81
+ Position 0 0
+ Type Rectangle
+   BackColor {#000000}
+  ShadowColor {#000000}
+  HilightColor {#000000}
+Main
+ Case message of
+  SingleClic :
+  Begin
+  End
+End
+
+Widget 5
+Property
+ Title {}
+ Size  300 79
+ Position 0 -1
+ Type Rectangle
+   BackColor {#222222}
+  ShadowColor {#FFFFFF}
+  HilightColor {#222222}
+Main
+ Case message of
+  SingleClic :
+  Begin
+  End
+End
+
+Widget 4
+Property
+ Title {}
+ Size  298 77
+ Position 1 0
+ Type Rectangle
+  ShadowColor {#FFFFFF}
+  HilightColor {#222222}
+Main
+ Case message of
+  SingleClic :
+  Begin
+  End
+End
+
+Widget 6
+Property
+ Title {}
+ Size  296 75
+ Position 2 1
+ Type Rectangle
+  ShadowColor {#E5E2DA}
+  HilightColor {#E5E2DA}
+Main
+ Case message of
+  SingleClic :
+  Begin
+  End
+End
+
+Widget 9
+Property
+ Title {}
+ Size  291 70
+ Position 4 3
+ Type Rectangle
+  ShadowColor {#222222}
+  HilightColor {#FFFFFF}
+Main
+ Case message of
+  SingleClic :
+  Begin
+  End
+End
+
+Widget 1
+Property
+ Title {Do you really want to exit Fvwm?}
+ Size  205 20
+ Position 45 8
+ Type ItemDraw
+ Flags NoReliefString
+Main
+ Case message of
+  SingleClic :
+  Begin
+  End
+End
+
+Widget 2
+Property
+ Title {}
+ Icon themes/MMM/icons/apply.png
+ Size 60 28
+ Position 70 35
+  BackColor {#dcdad5}
+  ShadowColor {#222222}
+ Flags NoReliefString
+ Type PushButton
+ Value 1
+Main
+ Case message of
+  SingleClic :
+  Begin
+   Do {Quit}
+  End
+End
+
+Widget 3
+Property
+ Title {}
+ Icon themes/MMM/icons/cancel.png
+ Size 60 28
+ Position 170 35
+ Flags NoReliefString
+  BackColor {#dcdad5}
+  ShadowColor {#222222}
+ Type PushButton
+ Value 1
+Main
+ Case message of
+  SingleClic :
+  Begin
+   Quit
+  End
+End
+
+
+

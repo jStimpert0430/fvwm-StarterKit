@@ -1,0 +1,10 @@
+# Color Scheme Walnut
+Colorset 0 fg white, bg rgb:21/61/97, hi, sh, Plain, NoShape
+Colorset 1 fg white, bg rgb:21/61/97, hi, sh, Plain, NoShape
+Colorset 2 fg black, bg rgb:d3/c0/b8, hi, sh, Plain, NoShape
+Colorset 3 fg white, bg rgb:21/61/97, hi, sh, Plain, NoShape
+Colorset 4 fg black, bg rgb:d3/c0/b8, hi, sh, Plain, NoShape
+Colorset 5 fg white, bg rgb:21/61/97, hi, sh, Plain, NoShape
+Colorset 6 fg black, bg rgb:a2/87/83, hi, sh, Plain, NoShape
+Colorset 7 fg black, bg rgb:cc/b3/a9, hi, sh, Plain, NoShape
+Colorset 8 fg white, bg rgb:21/61/97, hi, sh, Plain, NoShape
