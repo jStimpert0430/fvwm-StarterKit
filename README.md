@@ -7,7 +7,7 @@ This theme was created as a means to learn my way around fvwm and what I could d
 
 This software is ment to be a lighterweight and current alternative to "Fvwm-themes" and functions by loading immedietly after the default config for fvwm is loaded and does not require the use of a startx command or another invasive initialization process. If you're not happy with how it functions, simply remove the downloaded files from your .fvwm directory and everything will return to how it was set previously.
 
-[CURRENTLY IN ACTIVE DEVELOPMENT - FEATURES AND ORGANIZATION MAY CHANGE FROM UPDATE TO UPDATE - NOT READY FOR DAILY USE]
+[CURRENTLY IN ACTIVE DEVELOPMENT - FEATURES AND ORGANIZATION MAY CHANGE FROM UPDATE TO UPDATE - NOT READY FOR DAILY USE - INSTALL AT YOUR OWN RISK!]
 
 ## Features 
 
