@@ -25,7 +25,7 @@ This software is ment to be a lighterweight and current alternative to "Fvwm-the
 
 * Tweak individual decors and colors through the use of GUI Tweak menu to set functionality as desired without the need to open a text editor while using any built in style as a starting point
 
-* Includes all fvwm wiki example decors, colors, and tools
+* Includes all fvwm wiki example decors, colors, and tools (Partially implemented)
 
 ## What this is not
 * A full DE implementation, this is ment to be as an alternative default to the included fvwm config that is intended to be a more reasonable starting point as well as showcase some of the more unique features of fvwm that I feel the default configuration was missing. 
