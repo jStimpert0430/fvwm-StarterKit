@@ -21,7 +21,7 @@ This software is ment to be a lighterweight and current alternative to "Fvwm-the
 
 ## Features Wishlist
 
-* Internal Custom Toolset, no need for external applications or libraries outside of Fvwm
+* Internal Custom Toolset, no need for external applications or libraries outside of Fvwm (Partially implemented)
 
 * Multiple Taskbar options and designs
 
