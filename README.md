@@ -9,7 +9,7 @@ This software is ment to be a lighterweight and current alternative to "Fvwm-the
 
 [CURRENTLY IN ACTIVE DEVELOPMENT - FEATURES AND ORGANIZATION MAY CHANGE FROM UPDATE TO UPDATE - NOT READY FOR DAILY USE - INSTALL AT YOUR OWN RISK!]
 
-## Features Wishlist
+## Features
 
 * Modular and unobtrusive design that is easy to pick apart should you want to learn how to set up your own or extend this design
 
@@ -17,11 +17,13 @@ This software is ment to be a lighterweight and current alternative to "Fvwm-the
 
 * Dynamic Decor and Colorset support, simply pick which combination of styling and colors you would like from the appearance menu and mix and match fvwm to your preference through the GUI. Add your own by dropping .color or .style files into the appropriate folder
 
+* Select and omit the custom components you want and don't want
+
+## Features Wishlist
+
 * Multiple Taskbar options and designs
 
 * Tweak individual decors and colors through the use of GUI Tweak menu to set functionality as desired without the need to open a text editor while using any built in style as a starting point
-
-* Select and omit the custom components you want and don't want
 
 * Includes all fvwm wiki example decors, colors, and tools
 
