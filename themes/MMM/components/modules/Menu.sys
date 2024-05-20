@@ -194,11 +194,11 @@ AddToMenu   MenuFvwmManPages "System" Title
 + "&ColorSets%themes/MMM/icons/wallpaper.png%" Popup ColorMenu
 + "&Styles%themes/MMM/icons/wallpaper.png%" Popup StyleMenu
 + "" Nop
-+ "&System Info%themes/MMM/icons/terminal-flat.png%" Module FvwmScript $[FVWM_USERDIR]/themes/MMM/SysInfo.src
++ "&System Info%themes/MMM/icons/terminal-flat.png%" Module FvwmScript $[FVWM_USERDIR]/themes/MMM/components/system/SysInfo.src
 + "Copy Config%themes/MMM/icons/conf.xpm%" FvwmScript FvwmScript-ConfirmCopyConfig
 + "&Help%themes/MMM/icons/help.xpm%" Popup MenuManPages
 + "" Nop
 + "&Restart FVWM%themes/MMM/icons/reboot.png%" Restart
-+ "&Log Out%themes/MMM/icons/shutdown.png%" Module FvwmScript $[FVWM_USERDIR]/themes/MMM/FvwmScript-Quit
++ "&Log Out%themes/MMM/icons/shutdown.png%" Module FvwmScript $[FVWM_USERDIR]/themes/MMM/components/system/LogoutWindow.src
 
 
