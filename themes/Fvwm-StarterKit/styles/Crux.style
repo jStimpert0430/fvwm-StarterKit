@@ -30,13 +30,13 @@ AddToDecor CruxDecor
     LeftMain Colorset 3, \
     RightMain Colorset 2, \
     UnderText Colorset 3, \
-    RightOfText AdjustedPixmap $[FVWM_USERDIR]/themes/MMM/styles/crux/crux-fvwm-ac.png
+    RightOfText AdjustedPixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/crux/crux-fvwm-ac.png
 
 + AddTitleStyle InActive MultiPixmap \
     LeftMain Colorset 4, \
     RightMain Colorset 1, \
     UnderText Colorset 4, \
-    RightOfText AdjustedPixmap $[FVWM_USERDIR]/themes/MMM/styles/crux/crux-fvwm-inac.png
+    RightOfText AdjustedPixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/crux/crux-fvwm-inac.png
 
 
 

@@ -9,7 +9,7 @@ Init
 Widget 1
 Property
  Title {}
- Icon themes/MMM/icons/banner.fvwm_red_3D.xpm
+ Icon $[InfoStore.themeRootDirectory]icons/banner.fvwm_red_3D.xpm
  Size  260 110
  Position 150 30
  Type ItemDraw

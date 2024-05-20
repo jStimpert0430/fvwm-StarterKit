@@ -6,15 +6,15 @@ DestroyModuleConfig FvwmTaskBar: *
 *FvwmTaskBar: Rows 1
 *FvwmTaskBar: Columns 2550
 # Menu Button
-*FvwmTaskBar: (70x1, Icon "themes/MMM/icons/fvwm.xpm", Title $[infostore.startButtonString], ActiveColorset 1, Action(Mouse 1) \
+*FvwmTaskBar: (70x1, Icon "themes/Fvwm-StarterKit/icons/fvwm.xpm", Title $[infostore.startButtonString], ActiveColorset 1, Action(Mouse 1) \
                Menu MenuFvwmRoot Root o100-2450p o100-1268p, Frame 2)
 
 # Quick Launch Buttons
-*FvwmTaskBar: (24x1, Icon "themes/MMM/icons/xterm.png", ActiveColorset 1, \
+*FvwmTaskBar: (24x1, Icon "themes/Fvwm-StarterKit/icons/xterm.png", ActiveColorset 1, \
                Action(Mouse 1) "Exec exec xterm")
-*FvwmTaskBar: (24x1, Icon "themes/MMM/icons/firefox.png", ActiveColorset 1, \
+*FvwmTaskBar: (24x1, Icon "themes/Fvwm-StarterKit/icons/firefox.png", ActiveColorset 1, \
                Action(Mouse 1) "Exec exec firefox")
-*FvwmTaskBar: (24x1, Icon "themes/MMM/icons/home.png", ActiveColorset 1, \
+*FvwmTaskBar: (24x1, Icon "themes/Fvwm-StarterKit/icons/home.png", ActiveColorset 1, \
                Action(Mouse 1) "Exec exec pcmanfm")
 
 # Swallow FvwmIconMan TaskBarIcons

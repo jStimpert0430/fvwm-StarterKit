@@ -20,18 +20,18 @@ AddToDecor Redmond98Decor
 + TitleStyle      -- Flat
 + ButtonStyle     All -- Flat
 + AddButtonStyle 1 MiniIcon
-+ AddButtonStyle 2 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-close.png
-+ AddButtonStyle 2 ActiveDown Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-close-pressed.png
-+ AddButtonStyle 2 Inactive   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-close.png
-+ AddButtonStyle 4 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-maximize.png
-+ AddButtonStyle 4 ActiveDown Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-maximize-pressed.png
-+ AddButtonStyle 4 Inactive   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-maximize.png
-+ AddButtonStyle 6 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-iconify.png -- Right flat
-+ AddButtonStyle 6 ActiveDown Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-iconify-pressed.png -- Right flat
-+ AddButtonStyle 6 Inactive   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-iconify.png -- Right flat
-+ AddButtonStyle 4 ToggledActiveUp   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-restore.png
-+ AddButtonStyle 4 ToggledActiveDown Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-restore-pressed.png
-+ AddButtonStyle 4 ToggledInactive   Pixmap $[FVWM_USERDIR]/themes/MMM/styles/redmond98/win-window-restore.png
++ AddButtonStyle 2 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-close.png
++ AddButtonStyle 2 ActiveDown Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-close-pressed.png
++ AddButtonStyle 2 Inactive   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-close.png
++ AddButtonStyle 4 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-maximize.png
++ AddButtonStyle 4 ActiveDown Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-maximize-pressed.png
++ AddButtonStyle 4 Inactive   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-maximize.png
++ AddButtonStyle 6 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-iconify.png -- Right flat
++ AddButtonStyle 6 ActiveDown Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-iconify-pressed.png -- Right flat
++ AddButtonStyle 6 Inactive   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-iconify.png -- Right flat
++ AddButtonStyle 4 ToggledActiveUp   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-restore.png
++ AddButtonStyle 4 ToggledActiveDown Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-restore-pressed.png
++ AddButtonStyle 4 ToggledInactive   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-restore.png
 + ButtonStyle All - Clear
 + ButtonStyle 1 - MwmDecorMenu
 + ButtonStyle 6 - MwmDecorMin

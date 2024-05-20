@@ -1,0 +1,56 @@
+Colorset 1 fg rgb:e8/f5/f5, bg rgb:3d/60/90, fgsh rgb:22/48/7a
+Colorset 2 fg rgb:df/ff/ff, bg rgb:03/56/cc, fgsh rgb:22/48/7a
+Colorset 3 bg rgb:45/61/9e, sh rgb:4a/5e/7d, hi rgb:4c/6f/af
+Colorset 4 bg rgb:07/49/de, sh rgb:25/56/a3, hi rgb:06/5b/f6
+
+Mouse 1 2 A Close
+Mouse 1 4 A Maximize
+Mouse 1 6 A Iconify
+Mouse 1 1 A Menu MenuWindowOps
+
+AddToDecor RedmondXPDecor
++ TitleStyle AllActive   TiledPixmap /home/bunta/.fvwm/themes/Fvwm-StarterKit/styles/redmondxp/title-active.png
++ TitleStyle AllInactive TiledPixmap /home/bunta/.fvwm/themes/Fvwm-StarterKit/styles/redmondxp/title-inactive.png
++ ButtonStyle All Simple -- UseTitleStyle
++ BorderStyle   Simple -- HiddenHandles NoInset Raised
++ TitleStyle    LeftJustified -- Flat
++ ButtonStyle   All -- Flat
++ AddButtonStyle 1 MiniIcon
++ AddButtonStyle 2 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmondxp/close-activeup.png
++ AddButtonStyle 2 ActiveDown Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmondxp/close-activedown.png
++ AddButtonStyle 2 Inactive   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmondxp/close-inactive.png
++ AddButtonStyle 4 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmondxp/maximize-activeup.png
++ AddButtonStyle 4 ActiveDown Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmondxp/maximize-activedown.png
++ AddButtonStyle 4 Inactive   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmondxp/maximize-inactive.png
++ AddButtonStyle 6 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmondxp/iconify-activeup.png
++ AddButtonStyle 6 ActiveDown Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmondxp/iconify-activedown.png
++ AddButtonStyle 6 Inactive   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmondxp/iconify-inactive.png
++ AddButtonStyle 4 ToggledActiveUp   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmondxp/unmaximize-activeup.png
++ AddButtonStyle 4 ToggledActiveDown Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmondxp/unmaximize-activedown.png
++ AddButtonStyle 4 ToggledInactive   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmondxp/unmaximize-inactive.png
++ ButtonStyle All - Clear
++ ButtonStyle 1 - MwmDecorMenu
++ ButtonStyle 6 - MwmDecorMin
++ ButtonStyle 4 - MwmDecorMax
++ TitleStyle Height 27
+
+
+Style * Colorset 1, HilightColorset 2, \
+        BorderColorset 3, HilightBorderColorset 4, \
+        BorderWidth 2, HandleWidth 2, \
+        FvwmBorder, FirmBorder, \
+        MWMButtons, UseDecor RedmondXPDecor
+         
+         
+Style *FvwmTaskBar MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderColorset 1, Colorset 1, UseDecor RedmondXPDecor
+
+Style "TofuPager" NoTitle, !Handles, Borders, BorderWidth 6, BorderColorset 1, Sticky, WindowListSkip, FixedSize, StayOnTop
+
+MenuStyle * Win
+MenuStyle * MenuColorset 5, ActiveColorset 6, GreyedColorset 7, TitleColorset 8
+MenuStyle * HilightTitleBack, SeparatorsLong
+MenuStyle * TrianglesSolid, TrianglesUseFore
+MenuStyle * ItemFormat "%|%3.1i%5.3l%5.3>%|"
+MenuStyle * Font "default:size=13:antialias=false"
+MenuStyle * MenuColorset #aaaaaa
+MenuStyle * ActiveFore White

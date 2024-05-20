@@ -100,7 +100,7 @@ End
 Widget 2
 Property
  Title {}
- Icon themes/MMM/icons/apply.png
+ Icon /themes/Fvwm-StarterKit/icons/apply.png
  Size 60 28
  Position 70 35
   BackColor {#dcdad5}
@@ -119,7 +119,7 @@ End
 Widget 3
 Property
  Title {}
- Icon themes/MMM/icons/cancel.png
+ Icon /themes/Fvwm-StarterKit/icons/cancel.png
  Size 60 28
  Position 170 35
  Flags NoReliefString
