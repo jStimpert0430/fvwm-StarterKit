@@ -194,11 +194,11 @@ AddToMenu   MenuFvwmManPages "System" Title
 + "&ColorSets%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup ColorMenu
 + "&Styles%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup StyleMenu
 + "" Nop
-+ "&System Info%themes/Fvwm-StarterKit/icons/terminal-flat.png%" Module FvwmScript $[FVWM_USERDIR]themes/Fvwm-StarterKit/components/system/SysInfo.src
++ "&System Info%themes/Fvwm-StarterKit/icons/terminal-flat.png%" Module FvwmScript /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/system/SysInfo.sys
 + "Copy Config%themes/Fvwm-StarterKit/icons/conf.xpm%" FvwmScript FvwmScript-ConfirmCopyConfig
 + "&Help%themes/Fvwm-StarterKit/icons/help.xpm%" Popup MenuManPages
 + "" Nop
 + "&Restart FVWM%themes/Fvwm-StarterKit/icons/reboot.png%" Restart
-+ "&Log Out%themes/Fvwm-StarterKit/icons/shutdown.png%" Module FvwmScript $[FVWM_USERDIR]themes/Fvwm-StarterKit/components/system/LogoutWindow.sys
++ "&Log Out%themes/Fvwm-StarterKit/icons/shutdown.png%" Module FvwmScript /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/system/LogoutWindow.sys
 
 
