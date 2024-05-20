@@ -1,0 +1,10 @@
+# Color Scheme Soot
+Colorset 0 fg white, bg rgb:7a/75/7a, hi, sh, Plain, NoShape
+Colorset 1 fg white, bg rgb:7a/75/7a, hi, sh, Plain, NoShape
+ColorSet 2 fg #dddddd, bg #305e6d, hi #328caa, sh #283e45
+Colorset 3 fg white, bg rgb:7a/75/7a, hi, sh, Plain, NoShape
+ColorSet 4 fg #dddddd, bg #305e6d, hi #3e7a8d, sh #283e45
+Colorset 5 fg white, bg rgb:7a/75/7a, hi, sh, Plain, NoShape
+Colorset 6 fg white, bg rgb:6d/61/65, hi, sh, Plain, NoShape
+Colorset 7 fg white, bg rgb:88/6b/70, hi, sh, Plain, NoShape
+Colorset 8 fg white, bg rgb:7a/75/7a, hi, sh, Plain, NoShape
