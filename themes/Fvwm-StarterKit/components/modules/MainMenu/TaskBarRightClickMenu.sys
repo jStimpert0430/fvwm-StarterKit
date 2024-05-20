@@ -1,0 +1,17 @@
+DestroyMenu MenuIconOps
+AddToMenu   MenuIconOps
++ "Close"               Close
++ "Destroy"             Destroy
++ "" Nop
++ "(Un)Maximize"        Maximize
++ "(No)TitleBar"	Pick (CirculateHit) ToggleTitle
++ "Send To"             Popup MenuSendTo
++ "" Nop
++ "Raise"		Raise
++ "Lower"		Lower
++ "" Nop
++ "StaysOnTop"          Pick (CirculateHit) Layer 0 6
++ "StaysPut"            Pick (CirculateHit) Layer 0 4
++ "StaysOnBottom"       Pick (CirculateHit) Layer 0 2
++ "" Nop
++ "Identify"            Module FvwmIdent

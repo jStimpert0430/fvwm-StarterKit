@@ -1,0 +1,16 @@
+# Programs Menu
+#
+# This test for some common programs and adds them to the menu.
+# When adding programs you don't need to use the Test (x foo)
+# lines as this is only to help make this menu portable.
+DestroyMenu MenuPrograms
+AddToMenu   MenuPrograms "Programs" Title
+Test (x firefox) + "&Firefox%themes/Fvwm-StarterKit/icons/firefox.png%" Exec exec firefox
+Test (x firefox) + "&Steam%themes/Fvwm-StarterKit/icons/firefox.png%" Exec exec firefox
+Test (x firefox) + "&Discord%themes/Fvwm-StarterKit/icons/firefox.png%" Exec exec firefox
+Test (x firefox) + "&Retroarch%themes/Fvwm-StarterKit/icons/firefox.png%" Exec exec firefox
+Test (x firefox) + "&Blender%themes/Fvwm-StarterKit/icons/firefox.png%" Exec exec firefox
+Test (x gvim) + "gVim" Exec exec gvim
+Test (x xemacs) + "XEmacs" Exec exec xemacs
+Test (x gimp) + "Gimp" Exec exec gimp
+Test (x vlc) + "VLC" Exec exec vlc
