@@ -1,0 +1,7 @@
+#Set Style to ThickBorders
+#Set Colorset to Luthien -> Autumn
+#Set Wallpaper to 1-alt
+
+Read $[FVWM_USERDIR]/themes/Fvwm-StarterKit/colorsets/luthien/Autumn.colors
+Read $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/ThickBorder.style
+Exec exec feh --bg-tile $[FVWM_USERDIR]/themes/Fvwm-StarterKit/bg/1-alt.png
