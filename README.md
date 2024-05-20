@@ -3,6 +3,8 @@ Fvwm-StarterKit is a robust set of modular default configs for Fvwm which highli
 
 ![Preview](screenshot.png?raw=true "Preview Screenshot")
 
+![Preview](ThemeSwitcher.gif?raw=true "Preview Screenshot")
+
 This software was created as a means to learn my way around fvwm and what I could do with the config files. I ended up with a really modular set of configs that I was able to easily arrange into a set of GUI options and is the kind of thing I wish I had available to me when I first started trying to learn. 
 
 This software is ment to be a lighterweight and current alternative to "Fvwm-themes" and functions by loading immedietly after the default config for fvwm is loaded and does not require the use of a startx command or another invasive initialization process. If you're not happy with how it functions, simply remove the downloaded files from your .fvwm directory and everything will return to how it was set previously.
