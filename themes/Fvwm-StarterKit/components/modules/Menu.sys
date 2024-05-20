@@ -185,6 +185,11 @@ DestroyMenu StyleMenu
 AddToMenu StyleMenu "Styles" Title
 PipeRead 'for i in $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/*.style; do \
   echo "AddToMenu StyleMenu $(basename -s .style $i) Read $i"; done'
+  
+DestroyMenu ThemeMenu
+AddToMenu ThemeMenu "Themes" Title
+PipeRead 'for i in $[FVWM_USERDIR]/themes/Fvwm-StarterKit/themes/*.theme; do \
+  echo "AddToMenu ThemeMenu $(basename -s .theme $i) Read $i"; done'
 
 # Fvwm Man Pages (Help) Menu
 DestroyMenu MenuFvwmManPages
@@ -193,6 +198,7 @@ AddToMenu   MenuFvwmManPages "System" Title
 + "&Wallpapers%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup WallpaperMenu
 + "&ColorSets%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup ColorMenu
 + "&Styles%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup StyleMenu
++ "&Themes%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup ThemeMenu
 + "" Nop
 + "&System Info%themes/Fvwm-StarterKit/icons/terminal-flat.png%" Module FvwmScript /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/system/SysInfo.sys
 + "Copy Config%themes/Fvwm-StarterKit/icons/conf.xpm%" FvwmScript FvwmScript-ConfirmCopyConfig

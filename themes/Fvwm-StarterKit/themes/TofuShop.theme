@@ -1,0 +1,7 @@
+#Set Style to default
+#Set Colorset to Default
+#Set Wallpaper to OG
+
+Read $[FVWM_USERDIR]/themes/Fvwm-StarterKit/colorsets/tofushop/Default.colors
+Read $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/default.style
+Exec exec feh --bg-tile $[FVWM_USERDIR]/themes/Fvwm-StarterKit/bg/OG.png
