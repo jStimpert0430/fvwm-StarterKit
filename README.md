@@ -1,26 +1,32 @@
 # Fvwm-StarterKit
-Fvwm-StarterKit is a robust set of modular default configs for Fvwm which highlight the more advanced features of fvwm in an easy to digest gui presentation and is designed with a  clean modular organization in mind for those curious can dive in and learn by picking apart rather than building up by using small pieces of functionality as a template to further extend.
+Fvwm-StarterKit is a set of lightweight, yet robust, configs and tools for Fvwm which highlight some of the more unique features of Fvwm and its derivatives.
+
+Featuring an easy to use and intuitive GUI config interace, out of the box dynamic and modular Colorset, Decor, Theme, and Component support, Desktop scrolling, and more.
+
+Fvwm-StarterKit is designed at its core with a clean, modular, and extendable structure in mind so those curious can dive in and learn by picking apart rather than from scratch by using small pieces of immedietly documented and reuseable functionality as a template to further extend without fully obsfucating away the Fvwm that is underneath or those just looking for more of a standard desktop experience out of the box than that of the default Fvwm configutation provides.
 
 ![Preview](Screenshots/Ver-INDEV1/screenshot.png?raw=true "Preview Screenshot")
 
+[CURRENTLY IN ACTIVE DEVELOPMENT - FEATURESET, STRUCTURE, AND IMPLEMENTATION MAY CHANGE FROM UPDATE TO UPDATE - THINGS WILL MOST CERTAINLY BREAK - NOT READY FOR DAILY USE - INSTALL AT YOUR OWN RISK!]
 
-This software was created as a means to learn my way around fvwm and what I could do with the config files. I ended up with a really modular set of configs that I was able to easily arrange into a set of GUI options and is the kind of thing I wish I had available to me when I first started trying to learn. 
+## Author Note
+This software was initially created as a means to familiarize myself with Fvwm and what I could do with the config files. I saw all of what NSCDE was able to accomplishs with Fvwm and was really impressed, but I wanted to use something similar without all of the CDE heritage baggage and it seemed easier to do that from scratch within Fvwm than tear out of the pieces of NSCDE I didn't want. 
 
-This software is ment to be a lighterweight and current alternative to "Fvwm-themes" and functions by loading immedietly after the default config for fvwm is loaded and does not require the use of a startx command or another invasive initialization process. If you're not happy with how it functions, simply remove the downloaded files from your .fvwm directory and everything will return to how it was set previously.
+What I've ended up with is a modular set of pieces I'm able to easily mix and match dynamically and in realtime. It resembles something like what "fvwm-themes" was in a lot of ways but with the key differences of -- Fvwm-StarterKit is less invasive(No StartX needed, loads immedietly after the default config with non-destructive installation), features a more standard and current fvwm3 design, and features a contained rootfolder/subfolder structure that is extensible by simply dropping the appropriate filetypes that contain definitions into the corrosponding user folder or by using the custom GUI tools to build those files for you.
 
-[CURRENTLY IN ACTIVE DEVELOPMENT - FEATURES AND ORGANIZATION MAY CHANGE FROM UPDATE TO UPDATE - NOT READY FOR DAILY USE - INSTALL AT YOUR OWN RISK!]
+ This is something I wish I had available to me when I first tried Fvwm, and I hope it can become a useful starting point for others going forward. It's a wonderful, powerful, and surprisingly modern window manager but one with quite a large wall of a learning curve for just a casual curious hobbyist.
 
-## Features
+## Feature Highlights
+* A Clean, sharp, and sensible set of defaults that provide a neat and useable floating window desktop evironment out of the box
 
-![Preview](Screenshots/Ver-INDEV1/ThemeSwitcher.gif?raw=true "Preview Screenshot")
+* Multiple Dynamic Decors, Colorsets, Themes, Tools, and Styles included with the ability to add additional custom sets by simply creating .colors, .styles, .theme, or .sys modules or by using the built in GUI toolset. Mix and match to your personal preference and watch changes propogate on screen in realtime!
 
-* Modular and unobtrusive design that is easy to pick apart should you want to learn how to set up your own or extend this design
+* Self contained, modular, and well documented design. Functionality is split into small pieces that are easier learn from, extend, and mix and match how you want. Easily build the Fvwm desktop for you by selecting the components you want and don't want.
 
-* Scrolling desktop like that found in NSCDE
+* Realtime Scrolling Desktop - Multiply your screen real estate with the ability to scroll up and down or left and right in real time by hovering over your desktop and using the scroll wheel like you would on a webpage. Drag a window to the edge of a page to snap it and your view to the next page or use the pager to arrange windows as you'd like.
 
-* Dynamic Decor and Colorset support, simply pick which combination of styling and colors you would like from the appearance menu and mix and match fvwm to your preference through the GUI. Add your own by dropping .color or .style files into the appropriate folder
+* Non-Destructive design, No additional commands or setup needed and won't interfere with any other settings or configurations used by other DE's or WM's. Uninstall by simply removing the Fvwm-StarterKit directory and the local.config entry point to return your Fvwm Desktop to exactly how it was before.
 
-* Select and omit the custom components you want and don't want
 
 ## Features Wishlist
 
@@ -32,10 +38,7 @@ This software is ment to be a lighterweight and current alternative to "Fvwm-the
 
 * Includes all fvwm wiki example decors, colors, and tools (Partially implemented)
 
-## What this is not
-* A full DE implementation, this is ment to be as an alternative default to the included fvwm config that is intended to be a more reasonable starting point as well as showcase some of the more unique features of fvwm that I feel the default configuration was missing. 
-
-## Recommended for proper integration
+## Some Recommendedations for better app integration
 
 * Raleigh GTK theme(https://github.com/thesquash/gtk-theme-raleigh)
 
@@ -47,12 +50,20 @@ This software is ment to be a lighterweight and current alternative to "Fvwm-the
 
 * Stanalone tray - used to pin running applications onto the panel.
 
-* Gmrun - small simple lightweight runner program with auto complete support
-
-* Fonts - Most of the theme is using default X11 built in fonts(I like the bitmap aesthetic), however I did use "c059" romanized at 8 points for some of my applications found in the "gsfonts" library on Arch linux, You'll have to source this from your own package manager on other distrobutions.
-
 ## Installation
 
-* Backup your personal config and local.config files and then copy the config, local.config, and the icons folder into your .fvwm config directory (Defaul: home/{user}/.fvwm)
+* Backup your personal config and local.config files and then copy the local.config and the themes folder into your .fvwm config directory (Default: home/{user}/.fvwm) 
+
+NOTE: This software was designed to load after the default config file, any personal changes made to this file may cause problems with conflicting configurations within Fvwm-StarterKit, considering moving personal changes to your own local.config, restoring config to default, and then installing Fvwm-StarterKit for optimal functionality.
 
 * Copy stanalonetrayrc into home directory and rename to ".stanalonetrayrc" - can provide your own, but I found these settings work best with this panel arrangement.
+
+## Recent Update Notes
+
+- 5/19/24 -INDEV-
+    Added theme and .theme filetype support. Functions by setting a colorset, a decor, a font, and a wallpaper currently. Can additionally call custom modules or set specific styles from these files as well.
+
+    ![Preview](Screenshots/Ver-INDEV1/ThemeSwitcher.gif?raw=true "Preview Screenshot")
+    <sup align="center"> Real time Theme Switching between "TofuShop" and "ChocolateBar" </sup>
+
+    To add custom themes/styles/colorsets/modules simply drop corrosponding files into the user folder for each directory and they'll appear as menu entries in their respective menus
