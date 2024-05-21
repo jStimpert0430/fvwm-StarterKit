@@ -38,7 +38,7 @@ What I've ended up with is a modular set of pieces I'm able to easily mix and ma
 
 * Includes all fvwm wiki example decors, colors, and tools (Partially implemented)
 
-## Some Recommendedations for better app integration
+## Some Recommendations for better app integration
 
 * Raleigh GTK theme(https://github.com/thesquash/gtk-theme-raleigh)
 
