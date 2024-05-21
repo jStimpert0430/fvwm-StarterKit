@@ -42,6 +42,8 @@ What I've ended up with is a modular set of pieces I'm able to easily mix and ma
 
 * Raleigh GTK theme(https://github.com/thesquash/gtk-theme-raleigh)
 
+* OneStepBack GTK theme (https://github.com/raorn/OneStepBack)
+
 * Sevenicons(https://github.com/markyb86/SevenIcons)
 
 * Palemoon browser with the "Moonscape" theme.
