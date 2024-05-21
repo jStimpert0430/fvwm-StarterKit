@@ -1,5 +1,6 @@
-Colorset 1 fg #d4d0c8, bg #d4d0c8 #fg #d4d0c8
-Colorset 2 fg white, bg Blue3, hi #40B0F0
+Colorset 0 fg #d4d0c8, bg #d4d0c8 #fg #d4d0c8
+Colorset 1 fg black, bg #d4d0c8 #fg #d4d0c8
+Colorset 2 fg white, bg #001b65, hi #40B0F0
 Colorset 3 fg white, bg #d4d0c8
 Colorset 4 fg white, bg #d4d0c8
 
@@ -41,14 +42,14 @@ AddToDecor Redmond98Decor
 + TitleStyle Height 18
 
 
-Style * Colorset 1, HilightColorset 2, \
+Style * Colorset 0, HilightColorset 2, \
         BorderColorset 3, HilightBorderColorset 4, \
         BorderWidth 4, HandleWidth 4, \
         FvwmBorder, FirmBorder, \
         MWMButtons, UseDecor Redmond98Decor
          
          
-Style *FvwmTaskBar MWMBorder, FirmBorder, BorderWidth 3, HandleWidth 5, BorderColorset 1, Colorset 1, UseDecor Redmond98Decor
+Style *FvwmTaskBar MWMBorder, FirmBorder, BorderWidth 3, HandleWidth 5, UseDecor Redmond98Decor, BorderColorset 0, Colorset 0
 
 Style "TofuPager" NoTitle, !Handles, Borders, BorderWidth 6, BorderColorset 1, Sticky, WindowListSkip, FixedSize, StayOnTop
 
