@@ -1,0 +1,62 @@
+Colorset 1 fg #d4d0c8, bg #d4d0c8 #fg #d4d0c8
+Colorset 2 fg white, bg Blue3, hi #40B0F0
+Colorset 3 fg white, bg #d4d0c8
+Colorset 4 fg white, bg #d4d0c8
+
+
+Mouse 1 2 A Close
+Mouse 1 4 A Maximize
+Mouse 1 6 A Iconify
+Mouse 1 1 A Menu MenuWindowOps
+
+AddToDecor Redmond98Decor
++ TitleStyle AllInactive HGradient 128 #797a7a #aeaeae
++ TitleStyle Active      HGradient 128 #001b65 #a4c8ee
++ ButtonStyle All Simple -- UseTitleStyle
++ AddButtonStyle Left   AllInactive Solid #797a7a
++ AddButtonStyle Right   AllInactive Solid #aeaeae
++ AddButtonStyle Left  AllActive   Solid #001b65
++ AddButtonStyle Right AllActive   Solid #a4c8ee
++ BorderStyle Simple -- HiddenHandles NoInset Raised
++ TitleStyle      LeftJustified
++ TitleStyle      -- Flat
++ ButtonStyle     All -- Flat
++ AddButtonStyle 1 MiniIcon
++ AddButtonStyle 2 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/tofu2000/close.png
++ AddButtonStyle 2 ActiveDown Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-close-pressed.png
++ AddButtonStyle 2 Inactive   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/tofu2000/close.png
++ AddButtonStyle 4 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/tofu2000/maximize.png
++ AddButtonStyle 4 ActiveDown Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-maximize-pressed.png
++ AddButtonStyle 4 Inactive   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/tofu2000/maximize.png
++ AddButtonStyle 6 ActiveUp   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/tofu2000/minimize.png -- Right flat
++ AddButtonStyle 6 ActiveDown Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-iconify-pressed.png -- Right flat
++ AddButtonStyle 6 Inactive   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/tofu2000/minimize.png -- Right flat
++ AddButtonStyle 4 ToggledActiveUp   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-restore.png
++ AddButtonStyle 4 ToggledActiveDown Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-restore-pressed.png
++ AddButtonStyle 4 ToggledInactive   Pixmap $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/redmond98/win-window-restore.png
++ ButtonStyle All - Clear
++ ButtonStyle 1 - MwmDecorMenu
++ ButtonStyle 6 - MwmDecorMin
++ ButtonStyle 4 - MwmDecorMax
++ TitleStyle Height 18
+
+
+Style * Colorset 1, HilightColorset 2, \
+        BorderColorset 3, HilightBorderColorset 4, \
+        BorderWidth 4, HandleWidth 4, \
+        FvwmBorder, FirmBorder, \
+        MWMButtons, UseDecor Redmond98Decor
+         
+         
+Style *FvwmTaskBar MWMBorder, FirmBorder, BorderWidth 3, HandleWidth 5, BorderColorset 1, Colorset 1, UseDecor Redmond98Decor
+
+Style "TofuPager" NoTitle, !Handles, Borders, BorderWidth 6, BorderColorset 1, Sticky, WindowListSkip, FixedSize, StayOnTop
+
+MenuStyle * Win
+MenuStyle * MenuColorset 5, ActiveColorset 6, GreyedColorset 7, TitleColorset 8
+MenuStyle * HilightTitleBack, SeparatorsLong
+MenuStyle * TrianglesSolid, TrianglesUseFore
+MenuStyle * ItemFormat "%|%3.1i%5.3l%5.3>%|"
+MenuStyle * Font "default:size=13:antialias=false"
+MenuStyle * MenuColorset #aaaaaa
+MenuStyle * ActiveFore White
