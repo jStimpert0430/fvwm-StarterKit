@@ -10,7 +10,7 @@ Fvwm-StarterKit is designed at its core with a clean, modular, and extendable st
 [CURRENTLY IN ACTIVE DEVELOPMENT - FEATURESET, STRUCTURE, AND IMPLEMENTATION MAY CHANGE FROM UPDATE TO UPDATE - THINGS WILL MOST CERTAINLY BREAK - NOT READY FOR DAILY USE - INSTALL AT YOUR OWN RISK!]
 
 ## Author Note
-This software was initially created as a means to familiarize myself with Fvwm and what I could do with the config files. I saw all of what NSCDE was able to accomplishs with Fvwm and was really impressed, but I wanted to use something similar without all of the CDE heritage baggage and it seemed easier to do that from scratch within Fvwm than tear out of the pieces of NSCDE I didn't want. 
+This software was initially created as a means to familiarize myself with Fvwm and what I could do with the config files. I saw all of what NSCDE was able to accomplish with Fvwm and was really impressed, but I wanted to use something similar without all of the CDE heritage baggage and it seemed easier to do that from scratch within Fvwm than tear out of the pieces of NSCDE I didn't want. 
 
 What I've ended up with is a modular set of pieces I'm able to easily mix and match dynamically and in realtime. It resembles something like what "fvwm-themes" was in a lot of ways but with the key differences of -- Fvwm-StarterKit is less invasive(No StartX needed, loads immedietly after the default config with non-destructive installation), features a more standard and current fvwm3 design, and features a contained rootfolder/subfolder structure that is extensible by simply dropping the appropriate filetypes that contain definitions into the corrosponding user folder or by using the custom GUI tools to build those files for you.
 
