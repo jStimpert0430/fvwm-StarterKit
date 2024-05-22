@@ -62,7 +62,7 @@ NOTE: This software was designed to load after the default config file, any pers
 
 ## Recent Update Notes
 - 5/21/24 -INDEV-
-    Got sidetracked and created a win 2000 theme in my theme engine, it did however gave me an oppurtunity to add dynamic styleable task bars and modules for the bars.
+    Took an oppurtunity to create a win 2000 theme in my theme engine, it also gave me an oppurtunity to add the initial pieces for the dynamic styleable task bars and modules and figure out how I want to piece out of the modules/functionality
 
     ![Preview](Screenshots/Ver-INDEV1/win2k.png?raw=true "Preview Screenshot")
 
