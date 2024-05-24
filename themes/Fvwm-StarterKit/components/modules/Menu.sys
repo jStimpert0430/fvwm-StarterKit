@@ -193,8 +193,8 @@ PipeRead 'for i in $[FVWM_USERDIR]/themes/Fvwm-StarterKit/themes/*.theme; do \
   
  DestroyMenu TaskBarStyleMenu
  AddToMenu TaskBarStyleMenu "TaskBar" Title
-+ "&Win2KTaskBar%themes/Fvwm-StarterKit/icons/wallpaper.png%" Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/modules/Win2KTaskBar/Win2KTaskBar.conf
-+ "&HorizontalTaskBar%themes/Fvwm-StarterKit/icons/wallpaper.png%" Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/HorizontalTaskBar.conf
++ "&Win 2000%themes/Fvwm-StarterKit/icons/wallpaper.png%" Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/modules/Win2KTaskBar/Win2KTaskBar.conf
++ "&TofuShop%themes/Fvwm-StarterKit/icons/wallpaper.png%" Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/HorizontalTaskBar.conf
  
 
 DestroyMenu AppearanceMenu

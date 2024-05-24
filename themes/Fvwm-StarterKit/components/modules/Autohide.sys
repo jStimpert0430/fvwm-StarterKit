@@ -12,9 +12,9 @@ AddToFunc autohide_hide
 + I Schedule $0 $[w.id] Deschedule $[w.id]
 
 # Start FvwmAuto
-AddToFunc StartFunction I Module FvwmAuto FvwmAutohide -menter enter_handler
+Module FvwmAuto FvwmAutohide -menter enter_handler
 
 # Add windows you want to autohide
 DestroyFunc enter_handler
 AddToFunc enter_handler
-+ I autohide TofuPager 50 E
++ I autohide TofuPager 1 E
