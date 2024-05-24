@@ -1,0 +1,4 @@
+
+Read $[FVWM_USERDIR]/themes/Fvwm-StarterKit/colorsets/tofushop/Default.colors
+Read $[FVWM_USERDIR]/themes/Fvwm-StarterKit/styles/Tofu-win2000.style
+Exec exec feh --bg-fill $[FVWM_USERDIR]/themes/Fvwm-StarterKit/bg/win2000.png

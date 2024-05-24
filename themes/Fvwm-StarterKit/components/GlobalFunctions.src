@@ -23,7 +23,7 @@
 DestroyFunc StartFunction
 AddToFunc   StartFunction
 + I Test (Init) InitBackground
-+ I Module FvwmButtons FvwmTaskBar
+#+ I Module FvwmButtons FvwmTaskBar
 + I Module FvwmEvent EventNewDesk
 
 # Function to set background when fvwm starts

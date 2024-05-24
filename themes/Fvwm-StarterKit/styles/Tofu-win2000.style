@@ -1,8 +1,12 @@
-Colorset 0 fg #d4d0c8, bg #d4d0c8 #fg #d4d0c8
+Colorset 0 fg #d4d0c8, bg #d4d0c8, sh, hi
 Colorset 1 fg black, bg #d4d0c8 #fg #d4d0c8
 Colorset 2 fg white, bg #001b65, hi #40B0F0
-Colorset 3 fg white, bg #d4d0c8
-Colorset 4 fg white, bg #d4d0c8
+Colorset 3 fg white, bg #d4d0c8, sh , hi
+Colorset 4 fg white, bg #d4d0c8, sh , hi
+Colorset 5  fg #000000, bg #ffffff, hi, sh, Plain, NoShape
+Colorset 6  fg #ffffff, bg #4b7e7e, hi, sh, Plain, NoShape
+Colorset 7  fg grey30, bg #4b7e7e, hi, sh, Plain, NoShape
+Colorset 8  fg #ffffff, bg #1c5151, hi, sh, Plain, NoShape
 
 
 Mouse 1 2 A Close

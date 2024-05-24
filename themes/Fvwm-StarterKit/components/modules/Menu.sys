@@ -190,18 +190,26 @@ DestroyMenu ThemeMenu
 AddToMenu ThemeMenu "Themes" Title
 PipeRead 'for i in $[FVWM_USERDIR]/themes/Fvwm-StarterKit/themes/*.theme; do \
   echo "AddToMenu ThemeMenu $(basename -s .theme $i) Read $i"; done'
+  
+ DestroyMenu TaskBarStyleMenu
+ AddToMenu TaskBarStyleMenu "TaskBar" Title
++ "&Win2KTaskBar%themes/Fvwm-StarterKit/icons/wallpaper.png%" Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/modules/Win2KTaskBar/Win2KTaskBar.conf
++ "&HorizontalTaskBar%themes/Fvwm-StarterKit/icons/wallpaper.png%" Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/HorizontalTaskBar.conf
+ 
+
+DestroyMenu AppearanceMenu
+AddToMenu AppearanceMenu "Appearance" Title
++ "&Wallpapers%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup WallpaperMenu
++ "&ColorSets%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup ColorMenu
++ "&Styles%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup StyleMenu
++ "&TaskBar%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup TaskBarStyleMenu
 
 # Fvwm Man Pages (Help) Menu
 DestroyMenu MenuFvwmManPages
 AddToMenu   MenuFvwmManPages "System" Title
 + "Fvwm&Console%themes/Fvwm-StarterKit/icons/xterm.png%" Module FvwmConsole -terminal $[infostore.terminal]
-+ "&Wallpapers%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup WallpaperMenu
-+ "&ColorSets%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup ColorMenu
-+ "&Styles%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup StyleMenu
++ "&Appearance%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup AppearanceMenu
 + "&Themes%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup ThemeMenu
-+ "&Win2KTaskBar%themes/Fvwm-StarterKit/icons/wallpaper.png%" /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/modules/Win2KTaskBar/Win2KTaskBar.conf
-+ "&HorizontalTaskBar%themes/Fvwm-StarterKit/icons/wallpaper.png%" Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/HorizontalTaskBar.conf
-+ "&RefreshModule%themes/Fvwm-StarterKit/icons/wallpaper.png%" Module FvwmButtons FvwmTaskBar
 + "" Nop
 + "&System Info%themes/Fvwm-StarterKit/icons/terminal-flat.png%" Module FvwmScript /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/system/SysInfo.sys
 + "Copy Config%themes/Fvwm-StarterKit/icons/conf.xpm%" FvwmScript FvwmScript-ConfirmCopyConfig
