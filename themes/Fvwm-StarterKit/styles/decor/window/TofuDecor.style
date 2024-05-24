@@ -1,4 +1,3 @@
-Read $[InfoStore.stylesDirectory]decor/window/input/DefaultTitleBars.input
 AddToDecor TofuDecor
 
 + TitleStyle Centered Height $[infostore.titlebarHeight]
@@ -17,14 +16,9 @@ AddToDecor TofuDecor
 + AddButtonStyle 6 Vector 3 42x58@1 42x42@1 58x42@1
 + AddButtonStyle 4 Vector 5 25x25@1 25x75@1 75x75@0 75x25@0 25x25@1
 
-Style * Colorset 1, HilightColorset 2, \
-        BorderColorset 3, HilightBorderColorset 4,\
-         HandleWidth 5, BorderWidth 5, \
-         DepressableBorder, FvwmBorder, Handles,  \#StippledTitle, \
-         UseDecor TofuDecor
-         
-Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/HorizontalTaskBar.conf
-Read $[InfoStore.stylesDirectory]decor/taskbar/TofuBar.bdecor
-Read $[InfoStore.stylesDirectory]decor/pager/TofuPager.pdecor
-Read $[InfoStore.stylesDirectory]decor/menu/TofuMenu.mdecor
 
+Style * Colorset 1, HilightColorset 2, Button 6, \
+        BorderColorset 3, HilightBorderColorset 4,\
+         HandleWidth $[infostore.borderWidth], BorderWidth $[infostore.borderWidth], \
+         !DepressableBorder, MWMBorder, !Handles,  \#StippledTitle, \
+         UseDecor TofuDecor

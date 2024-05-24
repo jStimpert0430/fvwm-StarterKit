@@ -48,7 +48,7 @@ Style * Colorset 0, HilightColorset 2, \
         FvwmBorder, FirmBorder, \
         MWMButtons, UseDecor Redmond98Decor
          
-         
+Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/Win2KTaskBar.conf         
 Style *FvwmTaskBar MWMBorder, FirmBorder, BorderWidth 3, HandleWidth 5, UseDecor Redmond98Decor, BorderColorset 0, Colorset 0
 
 Style "TofuPager" NoTitle, !Handles, Borders, BorderWidth 6, BorderColorset 1, Sticky, WindowListSkip, FixedSize, StayOnTop

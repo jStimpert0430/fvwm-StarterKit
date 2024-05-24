@@ -199,6 +199,9 @@ AddToMenu   MenuFvwmManPages "System" Title
 + "&ColorSets%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup ColorMenu
 + "&Styles%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup StyleMenu
 + "&Themes%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup ThemeMenu
++ "&Win2KTaskBar%themes/Fvwm-StarterKit/icons/wallpaper.png%" /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/modules/Win2KTaskBar/Win2KTaskBar.conf
++ "&HorizontalTaskBar%themes/Fvwm-StarterKit/icons/wallpaper.png%" Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/HorizontalTaskBar.conf
++ "&RefreshModule%themes/Fvwm-StarterKit/icons/wallpaper.png%" Module FvwmButtons FvwmTaskBar
 + "" Nop
 + "&System Info%themes/Fvwm-StarterKit/icons/terminal-flat.png%" Module FvwmScript /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/system/SysInfo.sys
 + "Copy Config%themes/Fvwm-StarterKit/icons/conf.xpm%" FvwmScript FvwmScript-ConfirmCopyConfig

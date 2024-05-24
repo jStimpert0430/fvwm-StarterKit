@@ -1,5 +1,5 @@
 DestroyModuleConfig FvwmTaskBar: *
-*FvwmTaskBar: Geometry 2550x24+0-1406
+*FvwmTaskBar: Geometry 2550x24+0-0  #1406 - panel at top
 *FvwmTaskBar: Colorset 1
 *FvwmTaskBar: Frame 0
 *FvwmTaskBar: Font "VT100.font7:Sans:size=20:bold:antialias=false"
@@ -10,7 +10,8 @@ DestroyModuleConfig FvwmTaskBar: *
                Menu MenuFvwmRoot Root o100-2450p o100-1268p, Frame 2)
 
 # Quick Launch Buttons
-*FvwmTaskBar: (24x1, Icon "themes/Fvwm-StarterKit/icons/xterm.png", ActiveColorset 1, \
+*FvwmTaskBar: (24x1, Icon "themes/Fvwm-StarterKit/icons/xterm.png", ActiveColorset
+ 1, \
                Action(Mouse 1) "Exec exec xterm")
 *FvwmTaskBar: (24x1, Icon "themes/Fvwm-StarterKit/icons/firefox.png", ActiveColorset 1, \
                Action(Mouse 1) "Exec exec firefox")
@@ -23,12 +24,11 @@ DestroyModuleConfig FvwmTaskBar: *
                
 
 *FvwmTaskBar: (120x1, ActiveColorset 1, Swallow(NoClose, UseOld) stalonetray \
-               'Exec exec stalonetray', Frame 2)
+               'Exec exec stalonetray', Frame -1)
 
 
 # Time Button with id TaskTime
-*FvwmTaskBar: ReliefThickness 2
-*FvwmTaskBar: (70x1, id "TaskTime", ActiveColorset 1, Title "Time", Frame 2 )
+*FvwmTaskBar: (70x1, id "TaskTime", ActiveColorset 1, Title "Time", Frame -1, )
 
 
 DestroyModuleConfig TaskBarIcons: *
@@ -39,7 +39,7 @@ DestroyModuleConfig TaskBarIcons: *
 *TaskBarIcons: Font "a:size=8:antialias=True"
 
 # Manager Size
-*TaskBarIcons: ButtonGeometry 150x24
+*TaskBarIcons: ButtonGeometry 150x24+5+5
 *TaskBarIcons: MaxButtonWidth 150
 *TaskBarIcons: ManagerGeometry 24x1
 
@@ -69,6 +69,7 @@ DestroyModuleConfig TaskBarIcons: *
 *TaskBarIcons: Action Mouse 3 A sendcommand "Menu MenuIconOps"
 
 # Run FvwmTaskBar
+
 # Set the time to the current time
 PipeRead 'echo "SendToModule FvwmButtons ChangeButton \
 TaskTime Title \"`date +%r`\""'

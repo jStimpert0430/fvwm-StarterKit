@@ -1,0 +1,4 @@
+Style *FvwmTaskBar MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderColorset 1, Colorset 1
+
+Style FvwmTaskBar  !Title, !Handles, WindowListSkip, \
+                  StaysOnTop, Sticky, NeverFocus
