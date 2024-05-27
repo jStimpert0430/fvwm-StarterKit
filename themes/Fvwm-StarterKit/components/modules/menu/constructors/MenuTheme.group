@@ -1,0 +1,4 @@
+DestroyMenu ThemeMenu
+AddToMenu ThemeMenu "Themes" Title
+PipeRead 'for i in $[FVWM_USERDIR]/themes/Fvwm-StarterKit/themes/*.theme; do \
+  echo "AddToMenu ThemeMenu $(basename -s .theme $i) Read $i"; done'

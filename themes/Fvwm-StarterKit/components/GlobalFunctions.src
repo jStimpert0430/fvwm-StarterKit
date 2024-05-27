@@ -22,17 +22,10 @@
 # actions that are run after a restart.
 DestroyFunc StartFunction
 AddToFunc   StartFunction
-+ I Test (Init) InitBackground
-#+ I Module FvwmButtons FvwmTaskBar
 + I Module FvwmEvent EventNewDesk
 
 # Function to set background when fvwm starts
-DestroyFunc InitBackground
-AddToFunc InitBackground
-+ I Test (f $[FVWM_USERDIR]/.BGdefault) \
-    Exec exec fvwm-root $[FVWM_USERDIR]/.BGdefault
-+ I TestRc (NoMatch) Exec exec fvwm-root \
-    $[FVWM_DATADIR]/default-config/images/background/bg1.png
+
 
 # Mouse Bindings Functions
 DestroyFunc RaiseMoveX

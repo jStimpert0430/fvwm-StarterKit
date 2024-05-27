@@ -1,4 +1,3 @@
-# Window Operations Menus
 DestroyMenu MenuWindowOps
 AddToMenu   MenuWindowOps
 + "Move"      Move

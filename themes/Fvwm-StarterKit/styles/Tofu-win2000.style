@@ -55,6 +55,7 @@ Style * Colorset 0, HilightColorset 2, \
 Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/Win2KTaskBar.conf         
 Style *FvwmTaskBar MWMBorder, FirmBorder, BorderWidth 3, HandleWidth 5, UseDecor Redmond98Decor, BorderColorset 0, Colorset 0
 
+KillModule FvwmPager
 Style "TofuPager" NoTitle, !Handles, Borders, BorderWidth 6, BorderColorset 1, Sticky, WindowListSkip, FixedSize, StayOnTop
 
 MenuStyle * Win
@@ -62,6 +63,9 @@ MenuStyle * MenuColorset 5, ActiveColorset 6, GreyedColorset 7, TitleColorset 8
 MenuStyle * HilightTitleBack, SeparatorsLong
 MenuStyle * TrianglesSolid, TrianglesUseFore
 MenuStyle * ItemFormat "%|%3.1i%5.3l%5.3>%|"
-MenuStyle * Font "default:size=13:antialias=false"
+MenuStyle * Font "xft:Windows-Regular:size=9:antialias=False"
 MenuStyle * MenuColorset #aaaaaa
 MenuStyle * ActiveFore White
+
+Style *FvwmScript Colorset 0
+

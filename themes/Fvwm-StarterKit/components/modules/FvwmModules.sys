@@ -27,7 +27,8 @@ DestroyModuleConfig FvwmBanner:*
 #   - Quit - This is a popup that asks for quit confirmation before
 #     quitting fvwm.
 DestroyModuleConfig FvwmScript:*
-*FvwmScript: DefaultColorset 10
+*FvwmScript: DefaultColorset 1
+*FvwmScript: Left
 
 # FvwmEvent
 #

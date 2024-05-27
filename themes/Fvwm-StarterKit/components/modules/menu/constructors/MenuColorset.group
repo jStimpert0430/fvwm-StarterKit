@@ -1,0 +1,27 @@
+DestroyMenu WikiColorsMenu
+AddToMenu WikiColorsMenu
++ "&CDEColors%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup ColorMenuCDE
++ "&LuthienColors%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup ColorMenuLuthien
+
+DestroyMenu TofuColorsMenu
+AddToMenu TofuColorsMenu
+PipeRead 'for i in $[FVWM_USERDIR]/themes/Fvwm-StarterKit/colorsets/tofushop/*.colors; do \
+  echo "AddToMenu TofuColorsMenu $(basename -s .colors $i) Read $i"; done'
+
+
+DestroyMenu ColorMenuCDE
+AddToMenu ColorMenuCDE "  CDE Color sets  " Title
+PipeRead 'for i in $[FVWM_USERDIR]/themes/Fvwm-StarterKit/colorsets/cde/*.colors; do \
+  echo "AddToMenu ColorMenuCDE $(basename -s .colors $i) Read $i"; done'
+  
+DestroyMenu ColorMenuLuthien
+AddToMenu ColorMenuLuthien "  Luthien Color sets  " Title
+PipeRead 'for i in $[FVWM_USERDIR]/themes/Fvwm-StarterKit/colorsets/luthien/*.colors; do \
+  echo "AddToMenu ColorMenuLuthien $(basename -s .colors $i) Read $i"; done'
+
+
+DestroyMenu ColorMenu
+AddToMenu ColorMenu "Color sets" Title
++ "&Wiki Colors%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup WikiColorsMenu
++ "&TofuShop Colors%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup TofuColorsMenu
++ "&Fvwm Default" Read $[InfoStore.colorsetDirectory]/Default.colors

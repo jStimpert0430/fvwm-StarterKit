@@ -1,2 +1,0 @@
-# Generate XDGMenu
-PipeRead "fvwm-menu-desktop -e"

@@ -1,0 +1,7 @@
+DestroyMenu MenuProgramShelf
+AddToMenu $[InfoStore.targetMenu]
++ "&FileManager%themes/Fvwm-StarterKit/icons/home.png%" Exec exec $[infostore.filemanager]
++ "&Internet%themes/Fvwm-StarterKit/icons/firefox.png%" Exec exec $[infostore.browser]
++ "&TextEditor%themes/Fvwm-StarterKit/icons/text.xpm%" Exec exec $[infostore.textEditor]
++ "&Terminal%themes/Fvwm-StarterKit/icons/terminal.png%" Exec exec $[infostore.terminal]
++ "" Nop

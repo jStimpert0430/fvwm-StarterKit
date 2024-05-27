@@ -1,0 +1,7 @@
+ DestroyMenu TaskBarStyleMenu
+ AddToMenu TaskBarStyleMenu "TaskBar" Title
++ "&Win 2000%themes/Fvwm-StarterKit/icons/wallpaper.png%" Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/modules/Win2KTaskBar/Win2KTaskBar.conf
++ "&TofuShop%themes/Fvwm-StarterKit/icons/wallpaper.png%" Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/HorizontalTaskBar.conf
++ "&Floating%themes/Fvwm-StarterKit/icons/wallpaper.png%" Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/modules/taskbar/FloatingTaskBar.conf
++ "&Micro%themes/Fvwm-StarterKit/icons/wallpaper.png%" Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/modules/taskbar/MicroTaskBar.conf
++ "&Gaps%themes/Fvwm-StarterKit/icons/wallpaper.png%" Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/modules/taskbar/GapsTaskBar.conf

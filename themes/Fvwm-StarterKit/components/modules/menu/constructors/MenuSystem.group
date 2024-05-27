@@ -1,0 +1,19 @@
+#Appearance menu constructor
+Test (f $[InfoStore.menuModuleDirectory]constructors/MenuAppearance.group) Read $[InfoStore.menuModuleDirectory]constructors/MenuAppearance.group
+
+#Manpages menu constructor
+Test (f $[InfoStore.menuModuleDirectory]constructors/MenuManPages.group) Read $[InfoStore.menuModuleDirectory]constructors/MenuManPages.group
+
+
+DestroyMenu MenuSystem
+AddToMenu   MenuSystem "System" Title
++ "Fvwm&Console%themes/Fvwm-StarterKit/icons/xterm.png%" Module FvwmConsole -terminal $[infostore.terminal]
++ "&Appearance%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup AppearanceMenu
++ "&Themes%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup ThemeMenu
++ "" Nop
++ "&System Info%themes/Fvwm-StarterKit/icons/terminal-flat.png%" Module FvwmScript /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/system/SysInfo.sys
++ "Copy Config%themes/Fvwm-StarterKit/icons/conf.xpm%" FvwmScript FvwmScript-ConfirmCopyConfig
++ "&Help%themes/Fvwm-StarterKit/icons/help.xpm%" Popup MenuManPages
++ "" Nop
++ "&Restart FVWM%themes/Fvwm-StarterKit/icons/reboot.png%" Restart
++ "&Log Out%themes/Fvwm-StarterKit/icons/shutdown.png%" Module FvwmScript /home/bunta/.fvwm/themes/Fvwm-StarterKit/components/system/LogoutWindow.sys

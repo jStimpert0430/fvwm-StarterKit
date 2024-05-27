@@ -1,4 +1,0 @@
-DestroyMenu WallpaperMenu
-AddToMenu WallpaperMenu "Wallpapers" Title
-PipeRead 'for i in $[FVWM_USERDIR]/themes/Fvwm-StarterKit/bg/*.png; do \
-  echo "AddToMenu WallpaperMenu $(basename -s .png $i) Exec exec feh --bg-tile $i"; done'

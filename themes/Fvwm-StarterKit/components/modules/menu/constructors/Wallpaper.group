@@ -1,0 +1,4 @@
+DestroyMenu WallpaperMenu
+AddToMenu WallpaperMenu "Wallpapers" Title
+PipeRead 'for dir in $[FVWM_USERDIR]/themes/Fvwm-StarterKit/bg/*/; do \
+  echo "AddToMenu WallpaperMenu $(basename ${dir%*/}) popup $(basename ${dir%*/})"; done'

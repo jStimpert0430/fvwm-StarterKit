@@ -1,0 +1,13 @@
+#Appearance menu entry constructors
+Test (f $[InfoStore.menuModuleDirectory]constructors/Wallpaper.group) Read $[InfoStore.menuModuleDirectory]constructors/Wallpaper.group
+Test (f $[InfoStore.menuModuleDirectory]constructors/MenuColorset.group) Read $[InfoStore.menuModuleDirectory]constructors/MenuColorset.group
+Test (f $[InfoStore.menuModuleDirectory]constructors/MenuStyle.group) Read $[InfoStore.menuModuleDirectory]constructors/MenuStyle.group  
+Test (f $[InfoStore.menuModuleDirectory]constructors/MenuTheme.group) Read $[InfoStore.menuModuleDirectory]constructors/MenuTheme.group  
+Test (f $[InfoStore.menuModuleDirectory]constructors/MenuTaskbarStyle.group) Read $[InfoStore.menuModuleDirectory]constructors/MenuTaskbarStyle.group
+
+DestroyMenu AppearanceMenu
+AddToMenu AppearanceMenu "Appearance" Title
++ "&Wallpapers%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup WallpaperMenu
++ "&ColorSets%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup ColorMenu
++ "&Styles%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup StyleMenu
++ "&TaskBar%themes/Fvwm-StarterKit/icons/wallpaper.png%" Popup TaskBarStyleMenu

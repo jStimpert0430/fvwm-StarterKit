@@ -1,0 +1,6 @@
+DestroyMenu MenuToolbox
+AddToMenu $[InfoStore.targetMenu]
++ "Run...%themes/Fvwm-StarterKit/icons/window-new.png%" Exec exec $[infostore.programRunner]
++ "Screenshot%themes/Fvwm-StarterKit/icons/camera.xpm%" Exec exec scrot -d 5
++ "&QuickAccess%themes/Fvwm-StarterKit/icons/applications-accessories.png%" Popup QuickLaunchMenu
++ "" Nop
