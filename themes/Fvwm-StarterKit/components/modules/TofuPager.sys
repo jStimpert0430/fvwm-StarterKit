@@ -1,5 +1,5 @@
 #Pages per desktop -> In vertical scrolling setup, will owant one column of pages
-DesktopSize "4x1"
+DesktopSize "1x4"
 
 Module FvwmPager TofuPager
 

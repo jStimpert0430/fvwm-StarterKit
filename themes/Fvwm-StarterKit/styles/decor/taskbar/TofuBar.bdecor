@@ -2,3 +2,24 @@ Style *FvwmTaskBar MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderCo
 
 Style FvwmTaskBar  !Title, !Handles, WindowListSkip, \
                   StaysOnTop, Sticky, NeverFocus
+                  
+                  
+Style *FvwmStartButton MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderColorset 1, Colorset 1
+
+Style FvwmStartButton  !Title, !Handles, WindowListSkip, \
+                  StaysOnTop, Sticky, NeverFocus
+                  
+Style *FvwmIconBar MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderColorset 1, Colorset 1
+
+Style FvwmIconBar  !Title, !Handles, WindowListSkip, \
+                  StaysOnTop, Sticky, NeverFocus
+                  
+Style *FvwmClock MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderColorset 1, Colorset 1
+
+Style FvwmClock  !Title, !Handles, WindowListSkip, \
+                  StaysOnTop, Sticky, NeverFocus               
+                  
+Style *FvwmSysPanel MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderColorset 1, Colorset 1
+
+Style FvwmSysPanel  !Title, !Handles, WindowListSkip, \
+                  StaysOnTop, Sticky, NeverFocus             

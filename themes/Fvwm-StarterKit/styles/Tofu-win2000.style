@@ -51,7 +51,13 @@ Style * Colorset 0, HilightColorset 2, \
         BorderWidth 4, HandleWidth 4, \
         FvwmBorder, FirmBorder, \
         MWMButtons, UseDecor Redmond98Decor
-         
+
+
+Style *FvwmTaskBar MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderColorset 1, Colorset 1
+
+Style FvwmTaskBar  !Title, !Handles, WindowListSkip, \
+                  StaysOnTop, Sticky, NeverFocus
+
 Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/Win2KTaskBar.conf         
 Style *FvwmTaskBar MWMBorder, FirmBorder, BorderWidth 3, HandleWidth 5, UseDecor Redmond98Decor, BorderColorset 0, Colorset 0
 
