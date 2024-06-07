@@ -3,9 +3,9 @@
 ### - 5/24/24 -INDEV-
 * Added support for modular... well modules. Can mix and match via a right click menu and select from an infinite amount of Taskbar styles, pager styles, and additional components. Currently only Taskbars are pieced out and hooked up for quick swap, but the rest are trivlial to do the same with, it's just a matter of organizing their structure into a similar structure as I did the taskbar modules. 
 
-<div align="center">
+<kbd align="center">
 	<img src="Screenshots/Ver-INDEV1/AppearanceMenu.png?raw=true">
-</div>
+</kbd>
 
 <sup align="center">Can use any theme as a starting point, and use the options in the Appearance menu to tweak to perfection.  </sup>
 
