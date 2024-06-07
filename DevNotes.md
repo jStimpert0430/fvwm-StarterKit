@@ -3,8 +3,8 @@
 ### - 6/7/24 -INDEV-
 * This one is going to be quite a large set of notes as I haven't updated the patch documentation in a little bit. I'll try to highlight and summerize each piece seperately. 
 
-### Rewrote project core
-#
+# Rewrote project core
+
 * Created a standalone version of the "Fvwm99" theme(https://github.com/jStimpert0430/Fvwm99) as I feel there may be interest in just a Win2000-like environment for Fvwm without the rest of the project and it has given me an oppurtunity to really identify and isolate the project core from the theme files. It's also given me a chance to add a whole bunch of infostore variables in effort to make structure as generic and as easily rearranged as possible in case of future restructuring so it won't be such a collosal effort.
 
     ### Core Structure
@@ -51,7 +51,51 @@
     ### New Core Changes
     #
     In porting out Fvwm99 from the rest of the package. It really gave me a chance to go over the current implementation with an extremely granular line by line rewrite in which I was able to switch a lot of hardcoded functionality over into variables. Some of the major changes include
-    * Style Targets - 
+    * Style Targets - Stylesets now use an InfoStore variable named "targetComponent" which make them more generic. Can be called by various pieces in order to style themselves without having repeating code for each theme or similar styles.
+    * StyleOverrideFiles - Contain small functionality definitions that will be used in themes to define their behaviour or by the "tweaks" menu to make small granular changes to your environment through a GUI. A lot of these files are really simply one line commands, but this makes it so they're easily able to be added to a menu or called through a GUI. 
+    
+        (Ex. One of these files might be called "ClickToRaise" and another might be "SloppyFocus". Each theme could easily call these commands directly, but set up this way I could have a Appearence -> Tweaks -> Focus folder in which the user is able to switch between them from any theme, regardless of how the theme is defined as well as just providing an easy to parse list of all possible Fvwm options through a standard context menu for new users).
+    * Theme Path Restructuring - Each theme is now responsible for its own theme filepaths with a standard definition being the theme name. Each individual theme folder now contains a copy of the main program structure (a colorset, a styles, a modules folder, etc.). 
+    
+        This was an organization attempt I think might be taking it one abstraction step too far. This project was intended to be an easy to parse and simple to pick apart project. While this arrangement is a little neater inside the folder, I feel like it buries functionality/styling too deep into folder within folders. It's hard for a new user to dig through without a guide. The advantages of writing this way however include having nice self contained theme folders that are able to be distributed by copying a .theme file and the corrosponding folder. I'd like to play around with this design a little more before totally trashing it, however. 
+
+    * Extreme Modularizing effort - Almost everything in the theme engine is controlled through variables set in the settings.conf file so everything is accessible from one neatly arranged file. This will make making large updates to systems *much* easier going forward and it just feels way neater to use when you can use quick identifiers for more complicated, but often used commands. Will create documentation for each of these command aliases for the release version. 
+
+    * The User Folder - Core functionality now resides inside the "Core" folder inside the root menu, the root also contains a "User" folder which houses a copy of the main core structure, but instead stores any user created themes/colorsets/styles/ etc. This will be used by GUI tools to store changes made by user so the core functionality will remain unchanged and can easily be updated without breaking things or overwriting something written by the user as well as making it easier to distinguish between built in themes and user created ones.
+
+    * Directory Map Files - Contains definition for filepaths used by the program. Currently a user/core variant. This will be used to easily update folder structure for future updates. Each filepath is build from an InfoStore of the filepath that came before it, so if the root is changed, all other filepaths will be updated automatically. Leaving each option controlling exactly one piece of the filepath.
+
+    Going forward with the rewrite, I'll try to update the current themes from this version to the new core and see how I like the new structure and if I can identify any shortcomings with the design I'm not seeing right now. If I don't like it I'll simply revert the structure to the current implementation and keep the other core improvements, then I'll update Fvwm-StarterKit with the new core. At this point I should be in a pretty good spot for release apart from documentation. The logic has been cleaned and organized and is really extenable as is. I'm excited for anybody curious to try it and leave feedback. Still the ocassional bug here and there, but overall it's a really useable package.
+
+# New Themes, Styles, Taskbars, and Components
+* New Themes
+
+    * Moscow Theme - a soft purple gray with a subtle darker purple highlight color and new side panel default taskbar and a muted blue window highlight color.
+
+* New Styles
+
+    * Default-AltColors - Uses the menu highlight color for the window highlight color rather than the standard theme. These are often very different colors, and adds an easy way to add even more variation with the same colorsets already present
+
+* New Taskbars
+
+    * Floating - Center of the screen mini taskbar
+    * Micro Floating - Center of the screen taskbar with a smaller height and cleaner no icon appearance
+    * Gaps - Taskbar with a 10px gap on each side to accomodate a gaps like setup
+    * Islands - First implementation of a side panel. A floating frame panel where each component is its own "island" Includes variant with a spotify controller and one without 
+
+* New Colorsets
+
+    * Soot - Moscow default color
+    * Chalkboard - Darkmode Variant of Soot
+
+* New Components
+
+    * Spotify-player-controls - Spotify player controls is a simple spotify-player controller module and small song info display window with realtime album art support that is present in a version of the right panel, or available to be called and moved freely from any theme. Currently, this module is only interfaced to the TUI client - Spotify-player, but will try to add support for standard spotify.
+    * Weather - Gets weather
+    * Date - Gets day name, month name, and day number
+
+
+
 
 
 
