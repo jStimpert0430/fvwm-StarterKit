@@ -20,7 +20,7 @@
 * Took an oppurtunity to create a win 2000 theme in my theme engine -- there are plenty of Win 95/98/XP themes for the various window managers out there, but very few styled after 2000 for some reason. It also gave me an chance to add the initial pieces for the dynamic styleable task bars and modules and figure out how I want to piece out of the modules/functionality
 
 <kbd align="center">
-	<img src="Screenshots/Ver-INDEV1/win2k.png?raw=true ">
+	<img src="Screenshots/Ver-INDEV1/win2k.png?raw=true"  />
 </kbd>
 
 * I still need to add customizable fonts on a per theme or style basis as well as figure out what I want to do with the pager system, however I'm pretty pleased with the results even in the rudimentary implementation I currently have.
