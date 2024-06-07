@@ -1,0 +1,24 @@
+AddToDecor TofuDecor
+
++ TitleStyle Centered Height $[infostore.titlebarHeight]
++ TitleStyle    AllInactive -- Raised
++ TitleStyle    AllActive -- Raised
++ ButtonStyle   All Simple -- UseTitleStyle
++ BorderStyle Simple #-- NoInset #Flat
+
++ AddButtonStyle 1 Vector 3 23x58@0 77x58@0 77x42@0
++ AddButtonStyle 1 Vector 3 23x58@1 23x42@1 77x42@1
+
++ AddButtonStyle 2 Vector 13 26x29@1 34x21@1 50x35@1 70x21@1 79x29@1 63x48@0 79x65@1 70x75@0 50x61@0 34x75@0 26x65@0 44x48@1 26x29@0
++ AddButtonStyle 2 Vector 13 26x29@1 34x21@1 50x35@1 70x21@1 79x29@1 63x48@0 79x65@1 70x75@0 50x61@0 34x75@0 26x65@0 44x48@1 26x29@0
+
++ AddButtonStyle 6 Vector 3 42x58@0 58x58@0 58x42@0
++ AddButtonStyle 6 Vector 3 42x58@1 42x42@1 58x42@1
++ AddButtonStyle 4 Vector 5 25x25@1 25x75@1 75x75@0 75x25@0 25x25@1
+
+
+Style * Colorset 1, HilightColorset 6, Button 6, \
+        BorderColorset 3, HilightBorderColorset 6,\
+         HandleWidth $[infostore.borderWidth], BorderWidth $[infostore.borderWidth], \
+         !DepressableBorder, MWMBorder, !Handles,  \
+         UseDecor TofuDecor

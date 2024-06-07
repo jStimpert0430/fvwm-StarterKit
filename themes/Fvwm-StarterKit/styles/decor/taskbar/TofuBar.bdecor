@@ -4,7 +4,7 @@ Style FvwmTaskBar  !Title, !Handles, WindowListSkip, \
                   StaysOnTop, Sticky, NeverFocus
                   
                   
-Style *FvwmStartButton MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderColorset 1, Colorset 1
+Style *FvwmStartButton MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderColorset 1, Colorset 6
 
 Style FvwmStartButton  !Title, !Handles, WindowListSkip, \
                   StaysOnTop, Sticky, NeverFocus
@@ -23,3 +23,26 @@ Style *FvwmSysPanel MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderC
 
 Style FvwmSysPanel  !Title, !Handles, WindowListSkip, \
                   StaysOnTop, Sticky, NeverFocus             
+
+Style *FvwmAlbumArt MWMBorder, FirmBorder, BorderWidth 8, HandleWidth 8, BorderColorset 1, Colorset 1
+
+Style FvwmAlbumArt  !Title, !Handles, WindowListSkip, \
+                  StaysOnTop, Sticky, NeverFocus
+                  
+Style *FvwmSongInfo MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderColorset 1, Colorset 6
+
+Style FvwmSongInfo  !Title, !Handles, WindowListSkip, \
+                  StaysOnTop, Sticky, NeverFocus             
+                  
+Style *FvwmSongControls MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderColorset 1, Colorset 1
+
+Style FvwmSongControls  !Title, !Handles, WindowListSkip, \
+                  StaysOnTop, Sticky, NeverFocus                      
+
+Style *FvwmQuickLaunch MWMBorder, FirmBorder, BorderWidth 5, HandleWidth 5, BorderColorset 1, Colorset 1
+
+Style FvwmQuickLaunch  !Title, !Handles, WindowListSkip, \
+                  StaysOnTop, Sticky, NeverFocus             
+ 
+                  
+  

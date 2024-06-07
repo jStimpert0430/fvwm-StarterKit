@@ -1,0 +1,11 @@
+Read $[InfoStore.stylesDirectory]decor/window/input/DefaultTitleBar.input
+Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/styles/decor/window/TofuDecorAltColors.style    
+Read $[InfoStore.stylesDirectory]decor/pager/TofuPager.pdecor
+Read $[InfoStore.stylesDirectory]decor/menu/TofuMenu.mdecor
+Read /home/bunta/.fvwm/themes/Fvwm-StarterKit/HorizontalTaskBar.conf
+Read $[InfoStore.stylesDirectory]decor/taskbar/TofuBar.bdecor
+
+
+
+
+
