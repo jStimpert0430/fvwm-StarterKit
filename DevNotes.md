@@ -1,5 +1,64 @@
 # Fvwm-StarterKit Dev Log
 
+### - 6/7/24 -INDEV-
+* This one is going to be quite a large set of notes as I haven't updated the patch documentation in a little bit. I'll try to highlight and summerize each piece seperately. 
+
+### Rewrote project core
+#
+* Created a standalone version of the "Fvwm99" theme(https://github.com/jStimpert0430/Fvwm99) as I feel there may be interest in just a Win2000-like environment for Fvwm without the rest of the project and it has given me an oppurtunity to really identify and isolate the project core from the theme files. It's also given me a chance to add a whole bunch of infostore variables in effort to make structure as generic and as easily rearranged as possible in case of future restructuring so it won't be such a collosal effort.
+
+    ### Core Structure
+    #
+     I'm currently torn between two different structures for the theme/styles/colorset folders. In the version of the theme engine present in Fvwm-StarterKit the theme is structured as--
+
+1. Local.config reads from the start.conf entry file which InfoStore variables that define various filepaths in the program. It's structured this way so I can simply set the root folder, and as long as the subfolders follow the same structure, It should be super portable and easy to rename a lot of things.
+
+2. The settings.conf file is loaded -  which defines InfoStore variables used by the default theme in order to set its parameters, or by other themes that don't want to override every option so they'll have a default available as a fallback. 
+
+    * My intention behind this file is to at some point in the future make a GUI control in the Fvwm Forms engine for these options and to save them between sessions as an override file as well as provide a "tweaks" menu so you can override other theme defaults, and save the tweaked theme in a user folder. But for now, they're largely redunant as the other themes simply override them when they're loaded.
+
+
+3. Global Functions and Modules are loaded - Any functions or modules needed globally throughout all themes are defined here. Currently only built in Fvwm Functions and Modules reside in here,  but will add more as time goes on.
+
+4. Input and default behaviour are set - In thinking about this one, this may get moved into the theme or styles' domain entirely. As I currently have window/taskbar bevariour/pager already set per theme already. Having a global input file feels a little redundant. Will look at this one more.
+
+5. Menu Builder - The menu much like the rest of the program is split into modules. Each module defines a menu or piece of functionality for the menu(i.e. Program dock is a group of 4 menu entries that link to commonly used system programs and Appearance menu is used for theme tweaks). I've structured it this way so a user or theme builder can create a menu easily out of components like they can with task bar or any other part of the themes in Fvwm. Rearrange or expand to your hearts content, without having to major edit core functionality of each peice. Just call the pieces you want from the package or add your own. This feels a little too messy and confusing in this iteration and I'd like to maybe condense it back into another style option but for now this will suffice and gives me freedom to build with it.
+    * The appearance menu - The appearance menu functions by creating catagory folders (Wallpaper, Colorsets, Styles, Taskbar) and then populating each of those folders based on the contents of the corrosponding folder inside the theme directory. 
+    
+        Styles for example use "Piperead" in a for loop to find each ".style" file in the style folder and add them as a menu entry that will read that style file upon execution. The same for the other options but with their corrosponding filetypes filtered. Can also use piperead to identify folders from within one of these folders in order to add sub-menus automatically.
+
+6. Default Theme is loaded - The theme structure is where the magic of Fvwm-StarterKit happens and is what I feel is one of the most interesting parts of Fvwm.
+    * Themes are defined as .theme files and are a collection of read statements pointing at a colorset, a fontset, a style, and a taskbar. 
+    * A .style file - what dictates the window decorations as well as the functionality of each of the buttons.
+    * A .colorset file - a file definiting 8 colorsets that can be used globally by any theme. Themes/styles may add more if the theme calls for it, but in order to keep compatability with any colorset provided by Fvwm-StarterKit on your themes, it's best if you cap these at 8 colors. 
+    * A Taskbar file - Contains arrangement, functionality, and styling defintions for taskbars
+
+     Each of these files can choose to override defaults or just use them if no override definition is provided, structured in a way to allow somebody who is interested to go in and look at pieces of functionality, pick it apart, and add their own pieces by simply adding their own files and they'll appear in the menus alongside all the other style options. In each of these files are standard Fvwm command script so it's the same syntax somebody would use to make their own configs. I've always felt more comfortable learning this way and it's the kind of thing that I really wish I had learning Fvwm. The wiki is great and gives wonderful examples, but sometimes you just don't know what you're looking for. It's easier to find the functionality of a component when the definition is included right in the program itself.
+
+    ### Directory Structure
+    #
+    The directory structure in this iteration of the theme engine is pretty flat and shallow. Present in the root folder is-- 
+    * a colorset folder - colorset definitions
+    * a style folder - styleset definitions
+    * a theme folder - theme definitions
+    * a bg folder - background images
+    * a icons folder - icon images
+    * a component folder - system components and modules
+    * a config folder. - global input/settings
+    
+    Each theme can provide its own folder in each of these folders to add theme specific styles, assets, modules, or functionality. As long as the root folders contain the .style/.colorset/.theme files for the corrosponding theme they'll automatically be added to the menu upon menu building.
+
+    ### New Core Changes
+    #
+    In porting out Fvwm99 from the rest of the package. It really gave me a chance to go over the current implementation with an extremely granular line by line rewrite in which I was able to switch a lot of hardcoded functionality over into variables. Some of the major changes include
+    * Style Targets - 
+
+
+
+
+
+
+
 ### - 5/24/24 -INDEV-
 * Added support for modular... well modules. Can mix and match via a right click menu and select from an infinite amount of Taskbar styles, pager styles, and additional components. Currently only Taskbars are pieced out and hooked up for quick swap, but the rest are trivlial to do the same with, it's just a matter of organizing their structure into a similar structure as I did the taskbar modules. 
 
