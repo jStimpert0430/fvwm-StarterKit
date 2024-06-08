@@ -9,12 +9,11 @@ Fvwm-StarterKit is designed at its core with a clean, modular, and extendable st
 
 [CURRENTLY IN ACTIVE DEVELOPMENT - FEATURESET, STRUCTURE, AND IMPLEMENTATION MAY CHANGE FROM UPDATE TO UPDATE - THINGS WILL MOST CERTAINLY BREAK - NOT READY FOR DAILY USE - INSTALL AT YOUR OWN RISK!]
 
-## Author Note
-This software was initially created as a means to familiarize myself with Fvwm and what I could do with the config files. I saw all of what NSCDE was able to accomplish with Fvwm and was really impressed, but I wanted to use something similar without all of the CDE heritage baggage and it seemed easier to do that from scratch within Fvwm than tear out of the pieces of NSCDE I didn't want. 
+## [Patch Notes](https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/DevNotes.md)
+## [Theme Previews](https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/DevNotes)
+## [Style Previews](https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/DevNotes)
+## [Colorset Previews](https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/DevNotes)
 
-What I've ended up with is a modular set of pieces I'm able to easily mix and match dynamically and in realtime. It resembles something like what "fvwm-themes" was in a lot of ways but with the key differences of -- Fvwm-StarterKit is less invasive(No StartX needed, loads immedietly after the default config with non-destructive installation), features a more standard and current fvwm3 design, and features a contained rootfolder/subfolder structure that is extensible by simply dropping the appropriate filetypes that contain definitions into the corrosponding user folder or by using the custom GUI tools to build those files for you.
-
- This is something I wish I had available to me when I first tried Fvwm, and I hope it can become a useful starting point for others going forward. It's a wonderful, powerful, and surprisingly modern window manager but one with quite a large wall of a learning curve for just a casual curious hobbyist.
 
 ## Feature Highlights
 * A Clean, sharp, and sensible set of defaults that provide a neat and useable floating window desktop evironment out of the box
@@ -52,6 +51,13 @@ What I've ended up with is a modular set of pieces I'm able to easily mix and ma
 
 * Stanalone tray - used to pin running applications onto the panel.
 
+## Author Note
+This software was initially created as a means to familiarize myself with Fvwm and what I could do with the config files. I saw all of what NSCDE was able to accomplish with Fvwm and was really impressed, but I wanted to use something similar without all of the CDE heritage baggage and it seemed easier to do that from scratch within Fvwm than tear out of the pieces of NSCDE I didn't want. 
+
+What I've ended up with is a modular set of pieces I'm able to easily mix and match dynamically and in realtime. It resembles something like what "fvwm-themes" was in a lot of ways but with the key differences of -- Fvwm-StarterKit is less invasive(No StartX needed, loads immedietly after the default config with non-destructive installation), features a more standard and current fvwm3 design, and features a contained rootfolder/subfolder structure that is extensible by simply dropping the appropriate filetypes that contain definitions into the corrosponding user folder or by using the custom GUI tools to build those files for you.
+
+ This is something I wish I had available to me when I first tried Fvwm, and I hope it can become a useful starting point for others going forward. It's a wonderful, powerful, and surprisingly modern window manager but one with quite a large wall of a learning curve for just a casual curious hobbyist.
+
 ## Installation
 
 * Backup your personal config and local.config files and then copy the local.config and the themes folder into your .fvwm config directory (Default: home/{user}/.fvwm) 
@@ -61,7 +67,7 @@ NOTE: This software was designed to load after the default config file, any pers
 * Copy stanalonetrayrc into home directory and rename to ".stanalonetrayrc" - can provide your own, but I found these settings work best with this panel arrangement.
 
 #
-# [Full Patch Notes](https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/DevNotes.md/).
+# [Full Patch Notes](https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/DevNotes.md/)
 
 
 ### Recent Update Notes
@@ -73,7 +79,7 @@ NOTE: This software was designed to load after the default config file, any pers
 
 * Created a standalone version of the "Fvwm99" theme(https://github.com/jStimpert0430/Fvwm99) as I feel there may be interest in just a Win2000-like environment for Fvwm without the rest of the project and it has given me an oppurtunity to really identify and isolate the project core from the theme files. It's also given me a chance to add a whole bunch of infostore variables in effort to make structure as generic and as easily rearranged as possible in case of future restructuring so it won't be such a collosal effort.
 
-For full core rewrite notes, see full patch notes here (https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/DevNotes.md)
+For full core rewrite notes, see full patch notes [here.](https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/DevNotes.md/)
 
 # New Themes, Styles, Taskbars, and Components
 * ### New Themes
@@ -125,8 +131,9 @@ For full core rewrite notes, see full patch notes here (https://github.com/jStim
     * Weather - Gets weather
     * Date - Gets day name, month name, and day number
 
-- 5/24/24 -INDEV-
-    Added support for modular... well modules. Can mix and match via a right click menu and select from an infinite amount of Taskbar styles, pager styles, and additional components. Currently only Taskbars are pieced out and hooked up for quick swap, but the rest are trivlial to do the same with, it's just a matter of organizing their structure into a similar structure as I did the taskbar modules. 
+### - 5/24/24 -INDEV-
+#
+* Added support for modular... well modules. Can mix and match via a right click menu and select from an infinite amount of Taskbar styles, pager styles, and additional components. Currently only Taskbars are pieced out and hooked up for quick swap, but the rest are trivlial to do the same with, it's just a matter of organizing their structure into a similar structure as I did the taskbar modules. 
 
     ![Preview](Screenshots/Ver-INDEV1/AppearanceMenu.png?raw=true "Preview Screenshot")
 
@@ -134,15 +141,18 @@ For full core rewrite notes, see full patch notes here (https://github.com/jStim
 
     Once the additional base modules are added, I'll probably work towards cleaning up and finish documenting what I have and work towards an actual release for INDEV1. As it stands it's pretty powerful and useful, but I still need to clean up the oddities I left in just figuring out I wanted everything to interact and flow into eachother. Post INDEV1, I'd like to start to add the graphical form tools for the menu options I've added thus far but first I want to get everything I do have stable and clean and documented.
 
-- 5/21/24 -INDEV-
-    Took an oppurtunity to create a win 2000 theme in my theme engine -- there are plenty of Win 95/98/XP themes for the various window managers out there, but very few styled after 2000 for some reason. It also gave me an chance to add the initial pieces for the dynamic styleable task bars and modules and figure out how I want to piece out of the modules/functionality
+### - 5/21/24 -INDEV-
+#
+
+* Took an oppurtunity to create a win 2000 theme in my theme engine -- there are plenty of Win 95/98/XP themes for the various window managers out there, but very few styled after 2000 for some reason. It also gave me an chance to add the initial pieces for the dynamic styleable task bars and modules and figure out how I want to piece out of the modules/functionality
 
     ![Preview](Screenshots/Ver-INDEV1/win2k.png?raw=true "Preview Screenshot")
 
     I still need to add customizable fonts on a per theme or style basis as well as figure out what I want to do with the pager system, however I'm pretty pleased with the results even in the rudimentary implementation I currently have.
 
-- 5/19/24 -INDEV-
-    Added theme and .theme filetype support. Functions by setting a colorset, a decor, a font, and a wallpaper currently. Can additionally call custom modules or set specific styles from these files as well.
+### - 5/19/24 -INDEV-
+#
+* Added theme and .theme filetype support. Functions by setting a colorset, a decor, a font, and a wallpaper currently. Can additionally call custom modules or set specific styles from these files as well.
 
     ![Preview](Screenshots/Ver-INDEV1/ThemeSwitcher.gif?raw=true "Preview Screenshot")
     <sup align="center"> Real time Theme Switching between "TofuShop" and "ChocolateBar" </sup>
