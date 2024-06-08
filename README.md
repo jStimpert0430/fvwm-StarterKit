@@ -60,7 +60,71 @@ NOTE: This software was designed to load after the default config file, any pers
 
 * Copy stanalonetrayrc into home directory and rename to ".stanalonetrayrc" - can provide your own, but I found these settings work best with this panel arrangement.
 
-## Recent Update Notes
+#
+# [Full Patch Notes](https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/DevNotes.md/).
+
+
+### Recent Update Notes
+#
+### - 6/7/24 -INDEV-
+* This one is going to be quite a large set of notes as I haven't updated the patch documentation in a little bit. I'll try to highlight and summerize each piece seperately. 
+
+# Rewrote project core
+
+* Created a standalone version of the "Fvwm99" theme(https://github.com/jStimpert0430/Fvwm99) as I feel there may be interest in just a Win2000-like environment for Fvwm without the rest of the project and it has given me an oppurtunity to really identify and isolate the project core from the theme files. It's also given me a chance to add a whole bunch of infostore variables in effort to make structure as generic and as easily rearranged as possible in case of future restructuring so it won't be such a collosal effort.
+
+For full core rewrite notes, see full patch notes here (https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/DevNotes.md)
+
+# New Themes, Styles, Taskbars, and Components
+* ### New Themes
+
+    * Moscow Theme - a soft purple gray with a subtle darker purple highlight color and new side panel default taskbar and a muted blue window highlight color. Insprired by old ID games and their unix environments
+        <kbd align="center">
+	    <img src="Preview/screenshots/indev/patch/moscow.png?raw=true"  />
+        </kbd>
+
+
+* ### New Styles
+
+    * Default-AltColors - Uses the menu highlight color for the window highlight color rather than the standard theme. These are often very different colors, and adds an easy way to add even more variation with the same colorsets already present
+        <kbd align="center">
+	    <img src="Preview/screenshots/indev/patch/defaultStyleAltColors.png?raw=true"  />
+        </kbd>
+
+
+* ### New Taskbars
+
+    * Floating - Center of the screen mini taskbar
+    * Micro Floating - Center of the screen taskbar with a smaller height and cleaner no icon appearance
+    * Gaps - Taskbar with a 10px gap on each side to accomodate a gaps like setup
+    * Islands - First implementation of a side panel. A floating frame panel where each component is its own "island" Includes variant with a spotify controller and one without 
+        <kbd align="center">
+	    <img src="Preview/screenshots/indev/patch/IslandPanelUpgrade.png?raw=true"  />
+        </kbd>
+
+* ### New Colorsets
+
+    * Soot - Moscow default color
+        <kbd align="center">
+	    <img src="Preview/screenshots/indev/patch/soot.png?raw=true"  />
+        </kbd>
+    * Chalkboard - Darkmode Variant of Soot
+        <kbd align="center">
+	    <img src="Preview/screenshots/indev/patch/chalkboard.png?raw=true"  />
+        </kbd>
+
+* ### New Components
+
+    * Spotify-player-controls - Spotify player controls is a simple spotify-player controller module and small song info display window with realtime album art support that is present in a version of the right panel, or available to be called and moved freely from any theme. Currently, this module is only interfaced to the TUI client - Spotify-player, but will try to add support for standard spotify and the more popular spotify-tui. If possible, I'd like to just map these controls to some global media control.
+
+        <kbd align="center">
+	    <img src="Preview/screenshots/indev/patch/spotify_player_controls.png?raw=true"  />
+        </kbd>
+
+
+    * Weather - Gets weather
+    * Date - Gets day name, month name, and day number
+
 - 5/24/24 -INDEV-
     Added support for modular... well modules. Can mix and match via a right click menu and select from an infinite amount of Taskbar styles, pager styles, and additional components. Currently only Taskbars are pieced out and hooked up for quick swap, but the rest are trivlial to do the same with, it's just a matter of organizing their structure into a similar structure as I did the taskbar modules. 
 
