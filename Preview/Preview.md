@@ -10,6 +10,10 @@ TofuShop is the default theme presented when first launching FvwmStarter kit and
 <img src="screenshots/themes/TofuShop.png?raw=true"  />
 </kbd>
 
+<kbd align="center">
+<img src="screenshots/themes/TofuShop2.png?raw=true"  />
+</kbd>
+
 
 * # Moscow
 <kbd align="center">
