@@ -4,8 +4,7 @@
 #
 ### Note: Any theme component shown can be mixed and match with any other theme component. So It's best to think of these as starting points for your perfect customizations.
 
-* # TofuShop
-TofuShop is the default theme presented when first launching FvwmStarter kit and features a clean top bar and green/leafy design touches. 
+* # TofuShop 
 
 <kbd align="center">
 <img src="screenshots/themes/TofuShop.png?raw=true"  />
