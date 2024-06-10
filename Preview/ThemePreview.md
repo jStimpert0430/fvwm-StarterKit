@@ -10,19 +10,9 @@
 <img src="screenshots/themes/TofuShop.png?raw=true"  />
 </kbd>
 
-<kbd align="center">
-<img src="screenshots/themes/TofuShop2.png?raw=true"  />
-</kbd>
-
-
 * # Moscow
 <kbd align="center">
 <img src="screenshots/themes/Moscow.png?raw=true"  />
-</kbd>
-
-* # Fvwm-Raised
-<kbd align="center">
-<img src="screenshots/themes/Fvwm.png?raw=true"  />
 </kbd>
 
 * # Chocolate-Bar
