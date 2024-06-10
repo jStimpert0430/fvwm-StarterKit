@@ -12,7 +12,7 @@ Fvwm-StarterKit is designed at its core with a clean, modular, and extendable st
 ## [Patch Notes](https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/DevNotes.md)
 ## [Theme Previews](https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/Preview/ThemePreview.md)
 ## [Style Previews](https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/Preview/StylePreview.md)
-## [Colorset Previews](https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/DevNotes)
+## [Colorset Previews](https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/Preview/ColorPreview.md)
 
 
 ## Feature Highlights
