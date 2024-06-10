@@ -53,5 +53,30 @@
 </kbd>
 
 # Taskbar Styles
+* # Default
+<kbd align="center">
+<img src="screenshots/taskbars/TofuShop.png?raw=true"  />
+</kbd>
+
+* # Floating
+<kbd align="center">
+<img src="screenshots/taskbars/Floating.png?raw=true"  />
+</kbd>
+
+* # Micro
+<kbd align="center">
+<img src="screenshots/taskbars/Micro.png?raw=true"  />
+</kbd>
+
+* # Gaps
+<kbd align="center">
+<img src="screenshots/taskbars/Gaps.png?raw=true"  />
+</kbd>
+
+* # Default
+<kbd align="center">
+<img src="screenshots/taskbars/Islands.png?raw=true"  />
+</kbd>
+
 # Pager Styles
 # Component Preview
