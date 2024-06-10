@@ -7,6 +7,8 @@ Fvwm-StarterKit is designed at its core with a clean, modular, and extendable st
 
 ![Preview](Screenshots/Ver-INDEV1/screenshot.png?raw=true "Preview Screenshot")
 
+![Preview](Preview/screenshots/gif/output.gif?raw=true "Preview Screenshot")
+
 [CURRENTLY IN ACTIVE DEVELOPMENT - FEATURESET, STRUCTURE, AND IMPLEMENTATION MAY CHANGE FROM UPDATE TO UPDATE - THINGS WILL MOST CERTAINLY BREAK - NOT READY FOR DAILY USE - INSTALL AT YOUR OWN RISK!]
 
 ## [Patch Notes](https://github.com/jStimpert0430/fvwm-StarterKit/blob/main/DevNotes.md)
