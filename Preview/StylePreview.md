@@ -73,7 +73,7 @@
 <img src="screenshots/taskbars/Gaps.png?raw=true"  />
 </kbd>
 
-* # Default
+* # Islands
 <kbd align="center">
 <img src="screenshots/taskbars/Islands.png?raw=true"  />
 </kbd>
