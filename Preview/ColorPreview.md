@@ -14,12 +14,6 @@ Alt Colors
 <img src="screenshots/colorsets/tofushop/default-alt.png?raw=true"  />
 </kbd>
 
-Dual Toned
-
-<kbd align="center">
-<img src="screenshots/colorsets/tofushop/default-dualTone.png?raw=true"  />
-</kbd>
-
 * # Soot
 <kbd align="center">
 <img src="screenshots/colorsets/tofushop/Soot.png?raw=true"  />
@@ -29,10 +23,4 @@ Alt Colors
 
 <kbd align="center">
 <img src="screenshots/colorsets/tofushop/Soot-alt.png?raw=true"  />
-</kbd>
-
-Dual Toned
-
-<kbd align="center">
-<img src="screenshots/colorsets/tofushop/Soot-dualToned.png?raw=true"  />
 </kbd>
